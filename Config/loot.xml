@@ -106,507 +106,507 @@
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='rareFoodDrink']">
 		<!-- *** Books_Schematics_Scaled -->
 		<lootgroup name="booksAllScaled" count="1">
-			<item group="perkBooks" prob="0.2"/>
-			<item group="schematicsModsAndGeneralCommon" prob="0.2"/>
-			<item group="schematicsVehiclesCommon" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="perkBooks" prob="0.05"/>
+			<item group="schematicsModsAndGeneralCommon" prob="0.05"/>
+			<item group="schematicsVehiclesCommon" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
 		<lootgroup name="booksRareOnlyScaled" count="1">
-			<item group="schematicsModsAndGeneralRare" prob="0.2"/>
-			<item group="schematicsVehiclesRare" prob="0.2"/>
-			<item name="plantedGraceCorn1Schematic" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="schematicsModsAndGeneralRare" prob="0.05"/>
+			<item group="schematicsVehiclesRare" prob="0.05"/>
+			<item name="plantedGraceCorn1Schematic" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupGrills']">
 	    <!-- *** Perk_Books -->
 		<lootgroup name="perkBooks" count="1">
-			<item name="bookRangersArrowRecovery" prob="0.2"/>
-			<item name="bookRangersCripplingShot" prob="0.2"/>
-			<item name="bookRangersKnockdown" prob="0.2"/>
-			<item name="bookRangersFlamingArrows" prob="0.2"/>
-			<item name="bookRangersAPAmmo" prob="0.2"/>
-			<item name="bookRangersExplodingBolts" prob="0.2"/>
-			<item name="bookRangersForestGuide" prob="0.2"/>
+			<item name="bookRangersArrowRecovery" prob="0.05"/>
+			<item name="bookRangersCripplingShot" prob="0.05"/>
+			<item name="bookRangersKnockdown" prob="0.05"/>
+			<item name="bookRangersFlamingArrows" prob="0.05"/>
+			<item name="bookRangersAPAmmo" prob="0.05"/>
+			<item name="bookRangersExplodingBolts" prob="0.05"/>
+			<item name="bookRangersForestGuide" prob="0.05"/>
 		
-			<item name="bookSpearHunter1Damage" prob="0.2"/>
-			<item name="bookSpearHunter2Maintenance" prob="0.2"/>
-			<item name="bookSpearHunter3Bleed" prob="0.2"/>
-			<item name="bookSpearHunter4KillMove" prob="0.2"/>
-			<item name="bookSpearHunter5RapidStrike" prob="0.2"/>
-			<item name="bookSpearHunter6PenetratingShaft" prob="0.2"/>
-			<item name="bookSpearHunter7QuickStrike" prob="0.2"/>
+			<item name="bookSpearHunter1Damage" prob="0.05"/>
+			<item name="bookSpearHunter2Maintenance" prob="0.05"/>
+			<item name="bookSpearHunter3Bleed" prob="0.05"/>
+			<item name="bookSpearHunter4KillMove" prob="0.05"/>
+			<item name="bookSpearHunter5RapidStrike" prob="0.05"/>
+			<item name="bookSpearHunter6PenetratingShaft" prob="0.05"/>
+			<item name="bookSpearHunter7QuickStrike" prob="0.05"/>
 			
-			<item name="bookHuntingJournalBears" prob="0.2"/>
-			<item name="bookHuntingJournalCoyotes" prob="0.2"/>
-			<item name="bookHuntingJournalDeer" prob="0.2"/>
-			<item name="bookHuntingJournalMountainLions" prob="0.2"/>
-			<item name="bookHuntingJournalVultures" prob="0.2"/>
-			<item name="bookHuntingJournalWolves" prob="0.2"/>
-			<item name="bookHuntingJournalSelfDefense" prob="0.2"/>
+			<item name="bookHuntingJournalBears" prob="0.05"/>
+			<item name="bookHuntingJournalCoyotes" prob="0.05"/>
+			<item name="bookHuntingJournalDeer" prob="0.05"/>
+			<item name="bookHuntingJournalMountainLions" prob="0.05"/>
+			<item name="bookHuntingJournalVultures" prob="0.05"/>
+			<item name="bookHuntingJournalWolves" prob="0.05"/>
+			<item name="bookHuntingJournalSelfDefense" prob="0.05"/>
 			
-			<item name="bookArtOfMiningLuckyStrike" prob="0.2"/>
-			<item name="bookArtOfMiningDiamondTools" prob="0.2"/>
-			<item name="bookArtOfMiningCoffee" prob="0.2"/>
-			<item name="bookArtOfMiningBlackStrap" prob="0.2"/>
-			<item name="bookArtOfMiningPallets" prob="0.2"/>
-			<item name="bookArtOfMiningAvalanche" prob="0.2"/>
-			<item name="bookArtOfMiningDamage" prob="0.2"/>
+			<item name="bookArtOfMiningLuckyStrike" prob="0.05"/>
+			<item name="bookArtOfMiningDiamondTools" prob="0.05"/>
+			<item name="bookArtOfMiningCoffee" prob="0.05"/>
+			<item name="bookArtOfMiningBlackStrap" prob="0.05"/>
+			<item name="bookArtOfMiningPallets" prob="0.05"/>
+			<item name="bookArtOfMiningAvalanche" prob="0.05"/>
+			<item name="bookArtOfMiningDamage" prob="0.05"/>
 			
-			<item name="bookBatterUpFoulBalls" prob="0.2"/>
-			<item name="bookBatterUpBigHits" prob="0.2"/>
-			<item name="bookBatterUpStealingBases" prob="0.2"/>
-			<item name="bookBatterUpKnockdown" prob="0.2"/>
-			<item name="bookBatterUpSlowPitch" prob="0.2"/>
-			<item name="bookBatterUpMaintenance" prob="0.2"/>
-			<item name="bookBatterUpMetalChain" prob="0.2"/>
+			<item name="bookBatterUpFoulBalls" prob="0.05"/>
+			<item name="bookBatterUpBigHits" prob="0.05"/>
+			<item name="bookBatterUpStealingBases" prob="0.05"/>
+			<item name="bookBatterUpKnockdown" prob="0.05"/>
+			<item name="bookBatterUpSlowPitch" prob="0.05"/>
+			<item name="bookBatterUpMaintenance" prob="0.05"/>
+			<item name="bookBatterUpMetalChain" prob="0.05"/>
 		
-			<item name="bookBarBrawling1BasicMoves" prob="0.2"/>
-			<item name="bookBarBrawling2DropABomb" prob="0.2"/>
-			<item name="bookBarBrawling3KillerInstinct" prob="0.2"/>
-			<item name="bookBarBrawling4FinishingMoves" prob="0.2"/>
-			<item name="bookBarBrawling5AdrenalineHealing" prob="0.2"/>
-			<item name="bookBarBrawling6RageMode" prob="0.2"/>
-			<item name="bookBarBrawling7BoozedUp" prob="0.2"/>
+			<item name="bookBarBrawling1BasicMoves" prob="0.05"/>
+			<item name="bookBarBrawling2DropABomb" prob="0.05"/>
+			<item name="bookBarBrawling3KillerInstinct" prob="0.05"/>
+			<item name="bookBarBrawling4FinishingMoves" prob="0.05"/>
+			<item name="bookBarBrawling5AdrenalineHealing" prob="0.05"/>
+			<item name="bookBarBrawling6RageMode" prob="0.05"/>
+			<item name="bookBarBrawling7BoozedUp" prob="0.05"/>
 		
-			<item name="bookWasteTreasuresAcid" prob="0.2"/>
-			<item name="bookWasteTreasuresCloth" prob="0.2"/>
-			<item name="bookWasteTreasuresCoffins" prob="0.2"/>
-			<item name="bookWasteTreasuresDoors" prob="0.2"/>
-			<item name="bookWasteTreasuresHoney" prob="0.2"/>
-			<item name="bookWasteTreasuresSinks" prob="0.2"/>
-			<item name="bookWasteTreasuresWater" prob="0.2"/>
+			<item name="bookWasteTreasuresAcid" prob="0.05"/>
+			<item name="bookWasteTreasuresCloth" prob="0.05"/>
+			<item name="bookWasteTreasuresCoffins" prob="0.05"/>
+			<item name="bookWasteTreasuresDoors" prob="0.05"/>
+			<item name="bookWasteTreasuresHoney" prob="0.05"/>
+			<item name="bookWasteTreasuresSinks" prob="0.05"/>
+			<item name="bookWasteTreasuresWater" prob="0.05"/>
 		
-			<item name="bookUrbanCombatAdrenalineRush" prob="0.2"/>
-			<item name="bookUrbanCombatCigar" prob="0.2"/>
-			<item name="bookUrbanCombatRoomClearing" prob="0.2"/>
-			<item name="bookUrbanCombatJumping" prob="0.2"/>
-			<item name="bookUrbanCombatLandMines" prob="0.2"/>
-			<item name="bookUrbanCombatLanding" prob="0.2"/>
-			<item name="bookUrbanCombatSneaking" prob="0.2"/>
+			<item name="bookUrbanCombatAdrenalineRush" prob="0.05"/>
+			<item name="bookUrbanCombatCigar" prob="0.05"/>
+			<item name="bookUrbanCombatRoomClearing" prob="0.05"/>
+			<item name="bookUrbanCombatJumping" prob="0.05"/>
+			<item name="bookUrbanCombatLandMines" prob="0.05"/>
+			<item name="bookUrbanCombatLanding" prob="0.05"/>
+			<item name="bookUrbanCombatSneaking" prob="0.05"/>
 		
-			<item name="bookNightStalkerArchery" prob="0.2"/>
-			<item name="bookNightStalkerBlades" prob="0.2"/>
-			<item name="bookNightStalkerSilentNight" prob="0.2"/>
-			<item name="bookNightStalkerSlumberParty" prob="0.2"/>
-			<item name="bookNightStalkerStealthDamage" prob="0.2"/>
-			<item name="bookNightStalkerThiefAdrenaline" prob="0.2"/>
-			<item name="bookNightStalkerTwilightThief" prob="0.2"/>
+			<item name="bookNightStalkerArchery" prob="0.05"/>
+			<item name="bookNightStalkerBlades" prob="0.05"/>
+			<item name="bookNightStalkerSilentNight" prob="0.05"/>
+			<item name="bookNightStalkerSlumberParty" prob="0.05"/>
+			<item name="bookNightStalkerStealthDamage" prob="0.05"/>
+			<item name="bookNightStalkerThiefAdrenaline" prob="0.05"/>
+			<item name="bookNightStalkerTwilightThief" prob="0.05"/>
 		
-			<item name="bookFiremansAlmanacSpeed" prob="0.2"/>
-			<item name="bookFiremansAlmanacAxes" prob="0.2"/>
-			<item name="bookFiremansAlmanacEquipment" prob="0.2"/>
-			<item name="bookFiremansAlmanacPrevention" prob="0.2"/>
-			<item name="bookFiremansAlmanacHarvest" prob="0.2"/>
-			<item name="bookFiremansAlmanacHeat" prob="0.2"/>
-			<item name="bookFiremansAlmanacMolotov" prob="0.2"/>
+			<item name="bookFiremansAlmanacSpeed" prob="0.05"/>
+			<item name="bookFiremansAlmanacAxes" prob="0.05"/>
+			<item name="bookFiremansAlmanacEquipment" prob="0.05"/>
+			<item name="bookFiremansAlmanacPrevention" prob="0.05"/>
+			<item name="bookFiremansAlmanacHarvest" prob="0.05"/>
+			<item name="bookFiremansAlmanacHeat" prob="0.05"/>
+			<item name="bookFiremansAlmanacMolotov" prob="0.05"/>
 		
-			<item name="bookPistolPeteAPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteDamage" prob="0.2"/>
-			<item name="bookPistolPeteHPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteMaintenance" prob="0.2"/>
-			<item name="bookPistolPeteSteadyHand" prob="0.2"/>
-			<item name="bookPistolPeteSwissKnees" prob="0.2"/>
-			<item name="bookPistolPeteTakeAim" prob="0.2"/>
+			<item name="bookPistolPeteAPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteDamage" prob="0.05"/>
+			<item name="bookPistolPeteHPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteMaintenance" prob="0.05"/>
+			<item name="bookPistolPeteSteadyHand" prob="0.05"/>
+			<item name="bookPistolPeteSwissKnees" prob="0.05"/>
+			<item name="bookPistolPeteTakeAim" prob="0.05"/>
 			
-			<item name="bookLuckyLooterAmmunition" prob="0.2"/>
-			<item name="bookLuckyLooterBooks" prob="0.2"/>
-			<item name="bookLuckyLooterBrass" prob="0.2"/>
-			<item name="bookLuckyLooterDukes" prob="0.2"/>
-			<item name="bookLuckyLooterFood" prob="0.2"/>
-			<item name="bookLuckyLooterLead" prob="0.2"/>
-			<item name="bookLuckyLooterMedical" prob="0.2"/>
+			<item name="bookLuckyLooterAmmunition" prob="0.05"/>
+			<item name="bookLuckyLooterBooks" prob="0.05"/>
+			<item name="bookLuckyLooterBrass" prob="0.05"/>
+			<item name="bookLuckyLooterDukes" prob="0.05"/>
+			<item name="bookLuckyLooterFood" prob="0.05"/>
+			<item name="bookLuckyLooterLead" prob="0.05"/>
+			<item name="bookLuckyLooterMedical" prob="0.05"/>
 		
-			<item name="bookEnforcerAPAmmo" prob="0.2"/>
-			<item name="bookEnforcerApparel" prob="0.2"/>
-			<item name="bookEnforcerCriminalPursuit" prob="0.2"/>
-			<item name="bookEnforcerHPAmmo" prob="0.2"/>
-			<item name="bookEnforcerDamage" prob="0.2"/>
-			<item name="bookEnforcerIntimidation" prob="0.2"/>
-			<item name="bookEnforcerPunks" prob="0.2"/>
+			<item name="bookEnforcerAPAmmo" prob="0.05"/>
+			<item name="bookEnforcerApparel" prob="0.05"/>
+			<item name="bookEnforcerCriminalPursuit" prob="0.05"/>
+			<item name="bookEnforcerHPAmmo" prob="0.05"/>
+			<item name="bookEnforcerDamage" prob="0.05"/>
+			<item name="bookEnforcerIntimidation" prob="0.05"/>
+			<item name="bookEnforcerPunks" prob="0.05"/>
 			
-			<item name="bookShotgunMessiahBreachingSlugs" prob="0.2"/>
-			<item name="bookShotgunMessiahDamage" prob="0.2"/>
-			<item name="bookShotgunMessiahLimbShot" prob="0.2"/>
-			<item name="bookShotgunMessiahMaintenance" prob="0.2"/>
-			<item name="bookShotgunMessiahMagazine" prob="0.2"/>
-			<item name="bookShotgunMessiahPartyStarter" prob="0.2"/>
-			<item name="bookShotgunMessiahSlugs" prob="0.2"/>
+			<item name="bookShotgunMessiahBreachingSlugs" prob="0.05"/>
+			<item name="bookShotgunMessiahDamage" prob="0.05"/>
+			<item name="bookShotgunMessiahLimbShot" prob="0.05"/>
+			<item name="bookShotgunMessiahMaintenance" prob="0.05"/>
+			<item name="bookShotgunMessiahMagazine" prob="0.05"/>
+			<item name="bookShotgunMessiahPartyStarter" prob="0.05"/>
+			<item name="bookShotgunMessiahSlugs" prob="0.05"/>
 		
-			<item name="bookGreatHeistAdrenalineFall" prob="0.2"/>
-			<item name="bookGreatHeistGoldRush" prob="0.2"/>
-			<item name="bookGreatHeistClaimed" prob="0.2"/>
-			<item name="bookGreatHeistGems" prob="0.2"/>
-			<item name="bookGreatHeistMotionDetection" prob="0.2"/>
-			<item name="bookGreatHeistSafes" prob="0.2"/>
-			<item name="bookGreatHeistSprintSneak" prob="0.2"/>
+			<item name="bookGreatHeistAdrenalineFall" prob="0.05"/>
+			<item name="bookGreatHeistGoldRush" prob="0.05"/>
+			<item name="bookGreatHeistClaimed" prob="0.05"/>
+			<item name="bookGreatHeistGems" prob="0.05"/>
+			<item name="bookGreatHeistMotionDetection" prob="0.05"/>
+			<item name="bookGreatHeistSafes" prob="0.05"/>
+			<item name="bookGreatHeistSprintSneak" prob="0.05"/>
 		
-			<item name="bookSniperAPAmmo" prob="0.2"/>
-			<item name="bookSniperControlledBreathing" prob="0.2"/>
-			<item name="bookSniperCripplingShot" prob="0.2"/>
-			<item name="bookSniperDamage" prob="0.2"/>
-			<item name="bookSniperHeadShot" prob="0.2"/>
-			<item name="bookSniperReload" prob="0.2"/>
-			<item name="bookSniperHPAmmo" prob="0.2"/>
+			<item name="bookSniperAPAmmo" prob="0.05"/>
+			<item name="bookSniperControlledBreathing" prob="0.05"/>
+			<item name="bookSniperCripplingShot" prob="0.05"/>
+			<item name="bookSniperDamage" prob="0.05"/>
+			<item name="bookSniperHeadShot" prob="0.05"/>
+			<item name="bookSniperReload" prob="0.05"/>
+			<item name="bookSniperHPAmmo" prob="0.05"/>
 			
-			<item name="bookAutoWeaponsDamage" prob="0.2"/>
-			<item name="bookAutoWeaponsRagdoll" prob="0.2"/>
-			<item name="bookAutoWeaponsMaintenance" prob="0.2"/>
-			<item name="bookAutoWeaponsRecoil" prob="0.2"/>
-			<item name="bookAutoWeaponsDrumMag" prob="0.2"/>
-			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.2"/>
-			<item name="bookAutoWeaponsMachineGuns" prob="0.2"/>
+			<item name="bookAutoWeaponsDamage" prob="0.05"/>
+			<item name="bookAutoWeaponsRagdoll" prob="0.05"/>
+			<item name="bookAutoWeaponsMaintenance" prob="0.05"/>
+			<item name="bookAutoWeaponsRecoil" prob="0.05"/>
+			<item name="bookAutoWeaponsDrumMag" prob="0.05"/>
+			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.05"/>
+			<item name="bookAutoWeaponsMachineGuns" prob="0.05"/>
 		
-			<item name="bookTechJunkie1Damage" prob="0.2"/>
-			<item name="bookTechJunkie2Maintenance" prob="0.2"/>
-			<item name="bookTechJunkie3APAmmo" prob="0.2"/>
-			<item name="bookTechJunkie4Shells" prob="0.2"/>
-			<item name="bookTechJunkie5Repulsor" prob="0.2"/>
-			<item name="bookTechJunkie6BatonCharge" prob="0.2"/>
-			<item name="bookTechJunkie7Hydraulics" prob="0.2"/>
+			<item name="bookTechJunkie1Damage" prob="0.05"/>
+			<item name="bookTechJunkie2Maintenance" prob="0.05"/>
+			<item name="bookTechJunkie3APAmmo" prob="0.05"/>
+			<item name="bookTechJunkie4Shells" prob="0.05"/>
+			<item name="bookTechJunkie5Repulsor" prob="0.05"/>
+			<item name="bookTechJunkie6BatonCharge" prob="0.05"/>
+			<item name="bookTechJunkie7Hydraulics" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='perkBooks']">
 		<lootgroup name="skillMagazines" count="1">
 			<!-- Working_Stiff_Magazines_AND_Trader_Bob_Magazines -->
-			<item name="harvestingToolsSkillMagazine" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" prob="0.2"/>
-			<item name="sledgehammersSkillMagazine" prob="0.2"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+			<item name="harvestingToolsSkillMagazine" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" prob="0.05"/>
+			<item name="sledgehammersSkillMagazine" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 			
 			<!-- Savage_Country_AND_Trader_Hugh_Magazines -->
-			<item name="bowsSkillMagazine" prob="0.2"/>
-			<item name="spearsSkillMagazine" prob="0.2"/>
-			<item name="bladesSkillMagazine" prob="0.2"/>
-			<item name="clubsSkillMagazine" prob="0.2"/>
+			<item name="bowsSkillMagazine" prob="0.05"/>
+			<item name="spearsSkillMagazine" prob="0.05"/>
+			<item name="bladesSkillMagazine" prob="0.05"/>
+			<item name="clubsSkillMagazine" prob="0.05"/>
 			
 			<!-- Shotgun_Messiah_AND_Trader_Hugh_Magazines -->
-			<item name="handgunsSkillMagazine" prob="0.2"/>
-			<item name="shotgunsSkillMagazine" prob="0.2"/>
-			<item name="riflesSkillMagazine" prob="0.2"/>
-			<item name="machineGunsSkillMagazine" prob="0.2"/>
-			<item name="explosivesSkillMagazine" prob="0.2"/>
+			<item name="handgunsSkillMagazine" prob="0.05"/>
+			<item name="shotgunsSkillMagazine" prob="0.05"/>
+			<item name="riflesSkillMagazine" prob="0.05"/>
+			<item name="machineGunsSkillMagazine" prob="0.05"/>
+			<item name="explosivesSkillMagazine" prob="0.05"/>
 			
 			<!-- Savage_Country_AND_Trader_Joel_Magazines -->
-			<item name="armorSkillMagazine" prob="0.2"/>
+			<item name="armorSkillMagazine" prob="0.05"/>
 			
 			<!-- Pop-N-Pills_AND_Trader_Jen_Magazines -->
-			<item name="medicalSkillMagazine" prob="0.2"/>
-			<item name="knucklesSkillMagazine" prob="0.2"/>
+			<item name="medicalSkillMagazine" prob="0.05"/>
+			<item name="knucklesSkillMagazine" prob="0.05"/>
 			
 			<!-- Shamway_AND_Trader_Rekt_Magazines -->
-			<item name="foodSkillMagazine" prob="0.2"/>
-			<item name="seedSkillMagazine" prob="0.2"/>
+			<item name="foodSkillMagazine" prob="0.05"/>
+			<item name="seedSkillMagazine" prob="0.05"/>
 			
 			<!-- Mo_Power_AND_Trader_Bob_Magazines -->
-			<item name="roboticsSkillMagazine" prob="0.2"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" prob="0.2"/>
+			<item name="roboticsSkillMagazine" prob="0.05"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='skillMagazines']">
 		<lootgroup name="groupQuestRewardSkillMagazinesAll01" count="1">
-			<item name="bowsSkillMagazine" count="1" prob="0.2"/>
-			<item name="spearsSkillMagazine" count="1" prob="0.2"/>
-			<item name="clubsSkillMagazine" count="1" prob="0.2"/>
-			<item name="sledgehammersSkillMagazine" count="1" prob="0.2"/>
-			<item name="harvestingToolsSkillMagazine" count="1" prob="0.2"/>
-			<item name="knucklesSkillMagazine" count="1" prob="0.2"/>
-			<item name="bladesSkillMagazine" count="1" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" count="1" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" count="1" prob="0.2"/>
+			<item name="bowsSkillMagazine" count="1" prob="0.05"/>
+			<item name="spearsSkillMagazine" count="1" prob="0.05"/>
+			<item name="clubsSkillMagazine" count="1" prob="0.05"/>
+			<item name="sledgehammersSkillMagazine" count="1" prob="0.05"/>
+			<item name="harvestingToolsSkillMagazine" count="1" prob="0.05"/>
+			<item name="knucklesSkillMagazine" count="1" prob="0.05"/>
+			<item name="bladesSkillMagazine" count="1" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" count="1" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" count="1" prob="0.05"/>
 		
-			<item name="handgunsSkillMagazine" count="1" prob="0.2"/>
-			<item name="shotgunsSkillMagazine" count="1" prob="0.2"/>
-			<item name="riflesSkillMagazine" count="1" prob="0.2"/>
-			<item name="machineGunsSkillMagazine" count="1" prob="0.2"/>
-			<item name="explosivesSkillMagazine" count="1" prob="0.2"/>
-			<item name="armorSkillMagazine" count="1" prob="0.2"/>
-			<item name="roboticsSkillMagazine" count="1" prob="0.2"/>
+			<item name="handgunsSkillMagazine" count="1" prob="0.05"/>
+			<item name="shotgunsSkillMagazine" count="1" prob="0.05"/>
+			<item name="riflesSkillMagazine" count="1" prob="0.05"/>
+			<item name="machineGunsSkillMagazine" count="1" prob="0.05"/>
+			<item name="explosivesSkillMagazine" count="1" prob="0.05"/>
+			<item name="armorSkillMagazine" count="1" prob="0.05"/>
+			<item name="roboticsSkillMagazine" count="1" prob="0.05"/>
 		
-			<item name="workstationSkillMagazine" count="1" prob="0.2"/>
-			<item name="medicalSkillMagazine" count="1" prob="0.2"/>
-			<item name="foodSkillMagazine" count="1" prob="0.2"/>
-			<item name="seedSkillMagazine" count="1" prob="0.2"/>
-			<item name="vehiclesSkillMagazine" count="1" prob="0.2"/>
-			<item name="electricianSkillMagazine" count="1" prob="0.2"/>
-			<item name="trapsSkillMagazine" count="1" prob="0.2"/>
+			<item name="workstationSkillMagazine" count="1" prob="0.05"/>
+			<item name="medicalSkillMagazine" count="1" prob="0.05"/>
+			<item name="foodSkillMagazine" count="1" prob="0.05"/>
+			<item name="seedSkillMagazine" count="1" prob="0.05"/>
+			<item name="vehiclesSkillMagazine" count="1" prob="0.05"/>
+			<item name="electricianSkillMagazine" count="1" prob="0.05"/>
+			<item name="trapsSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']">
 		<lootgroup name="groupChallengeRewardSkillMagazinesAll" count="1">
-			<item group="groupChallengeRewardSkillMagazinesAll01" prob="0.2"/>
+			<item group="groupChallengeRewardSkillMagazinesAll01" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll01']">
 		<lootgroup name="groupQuestRewardSkillMagazinesAll" count="1">
-			<item group="groupQuestRewardSkillMagazinesAll01" prob="0.2"/>
+			<item group="groupQuestRewardSkillMagazinesAll01" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestRewardSkillMagazinesAll']">
 		<lootgroup name="groupChallengeRewardSkillMagazinesAll01" count="1">
-			<item name="bowsSkillMagazine" count="1" prob="0.2" />
-			<item name="spearsSkillMagazine" count="1" prob="0.2" />
-			<item name="clubsSkillMagazine" count="1" prob="0.2" />
-			<item name="sledgehammersSkillMagazine" count="1" prob="0.2" />
-			<item name="harvestingToolsSkillMagazine" count="1" prob="0.2" />
-			<item name="knucklesSkillMagazine" count="1" prob="0.2" />
-			<item name="bladesSkillMagazine" count="1" prob="0.2" />
-			<item name="repairToolsSkillMagazine" count="1" prob="0.2" />
-			<item name="salvageToolsSkillMagazine" count="1" prob="0.2" />
+			<item name="bowsSkillMagazine" count="1" prob="0.05" />
+			<item name="spearsSkillMagazine" count="1" prob="0.05" />
+			<item name="clubsSkillMagazine" count="1" prob="0.05" />
+			<item name="sledgehammersSkillMagazine" count="1" prob="0.05" />
+			<item name="harvestingToolsSkillMagazine" count="1" prob="0.05" />
+			<item name="knucklesSkillMagazine" count="1" prob="0.05" />
+			<item name="bladesSkillMagazine" count="1" prob="0.05" />
+			<item name="repairToolsSkillMagazine" count="1" prob="0.05" />
+			<item name="salvageToolsSkillMagazine" count="1" prob="0.05" />
 		
-			<item name="handgunsSkillMagazine" count="1" prob="0.2" />
-			<item name="shotgunsSkillMagazine" count="1" prob="0.2" />
-			<item name="riflesSkillMagazine" count="1" prob="0.2" />
-			<item name="machineGunsSkillMagazine" count="1" prob="0.2" />
-			<item name="explosivesSkillMagazine" count="1" prob="0.2" />
-			<item name="armorSkillMagazine" count="1" prob="0.2" />
-			<item name="roboticsSkillMagazine" count="1" prob="0.2" />
+			<item name="handgunsSkillMagazine" count="1" prob="0.05" />
+			<item name="shotgunsSkillMagazine" count="1" prob="0.05" />
+			<item name="riflesSkillMagazine" count="1" prob="0.05" />
+			<item name="machineGunsSkillMagazine" count="1" prob="0.05" />
+			<item name="explosivesSkillMagazine" count="1" prob="0.05" />
+			<item name="armorSkillMagazine" count="1" prob="0.05" />
+			<item name="roboticsSkillMagazine" count="1" prob="0.05" />
 		
-			<item name="workstationSkillMagazine" count="1" prob="0.2" />
-			<item name="medicalSkillMagazine" count="1" prob="0.2" />
-			<item name="foodSkillMagazine" count="1" prob="0.2" />
-			<item name="seedSkillMagazine" count="1" prob="0.2" />
-			<item name="vehiclesSkillMagazine" count="1" prob="0.2" />
-			<item name="electricianSkillMagazine" count="1" prob="0.2" />
-			<item name="trapsSkillMagazine" count="1" prob="0.2" />
+			<item name="workstationSkillMagazine" count="1" prob="0.05" />
+			<item name="medicalSkillMagazine" count="1" prob="0.05" />
+			<item name="foodSkillMagazine" count="1" prob="0.05" />
+			<item name="seedSkillMagazine" count="1" prob="0.05" />
+			<item name="vehiclesSkillMagazine" count="1" prob="0.05" />
+			<item name="electricianSkillMagazine" count="1" prob="0.05" />
+			<item name="trapsSkillMagazine" count="1" prob="0.05" />
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupChallengeRewardSkillMagazinesAll']">
 		<lootgroup name="weaponSkillMagazinesOnly" count="1">
-			<item name="bowsSkillMagazine" prob="0.2"/>
-			<item name="spearsSkillMagazine" prob="0.2"/>
-			<item name="bladesSkillMagazine" prob="0.2"/>
-			<item name="clubsSkillMagazine" prob="0.2"/>
-			<item name="handgunsSkillMagazine" prob="0.2"/>
-			<item name="shotgunsSkillMagazine" prob="0.2"/>
-			<item name="riflesSkillMagazine" prob="0.2"/>
-			<item name="machineGunsSkillMagazine" prob="0.2"/>
-			<item name="explosivesSkillMagazine" prob="0.2"/>
-			<item name="knucklesSkillMagazine" prob="0.2"/>
-			<item name="roboticsSkillMagazine" prob="0.2"/>
+			<item name="bowsSkillMagazine" prob="0.05"/>
+			<item name="spearsSkillMagazine" prob="0.05"/>
+			<item name="bladesSkillMagazine" prob="0.05"/>
+			<item name="clubsSkillMagazine" prob="0.05"/>
+			<item name="handgunsSkillMagazine" prob="0.05"/>
+			<item name="shotgunsSkillMagazine" prob="0.05"/>
+			<item name="riflesSkillMagazine" prob="0.05"/>
+			<item name="machineGunsSkillMagazine" prob="0.05"/>
+			<item name="explosivesSkillMagazine" prob="0.05"/>
+			<item name="knucklesSkillMagazine" prob="0.05"/>
+			<item name="roboticsSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupJunk02']">
 		<lootgroup name="groupJunk03" count="1">
-			<item group="groupScrapRare" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
-			<item group="groupValuablesSmall" prob="0.2"/>
-			<item name="resourceLockPick" count="1,2" prob="0.2"/>
+			<item group="groupScrapRare" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
+			<item group="groupValuablesSmall" prob="0.05"/>
+			<item name="resourceLockPick" count="1,2" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackBoss01']">
 		<lootgroup name="groupZpackBoss02" count="1">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupToilet']">
 		<!-- *** Savage_Country_Crate -->
 		<lootgroup name="groupSavageCountryBooks" count="1">
-			<item name="armorSkillMagazine" prob="0.2"/>
-			<item name="bowsSkillMagazine" prob="0.2"/>
-			<item name="spearsSkillMagazine" prob="0.2"/>
-			<item name="bladesSkillMagazine" prob="0.2"/>
-			<item name="clubsSkillMagazine" prob="0.2"/>
+			<item name="armorSkillMagazine" prob="0.05"/>
+			<item name="bowsSkillMagazine" prob="0.05"/>
+			<item name="spearsSkillMagazine" prob="0.05"/>
+			<item name="bladesSkillMagazine" prob="0.05"/>
+			<item name="clubsSkillMagazine" prob="0.05"/>
 		
-			<item name="bookRangersArrowRecovery" prob="0.2"/>
-			<item name="bookRangersCripplingShot" prob="0.2"/>
-			<item name="bookRangersKnockdown" prob="0.2"/>
-			<item name="bookRangersFlamingArrows" prob="0.2"/>
-			<item name="bookRangersAPAmmo" prob="0.2"/>
-			<item name="bookRangersExplodingBolts" prob="0.2"/>
-			<item name="bookRangersForestGuide" prob="0.2"/>
+			<item name="bookRangersArrowRecovery" prob="0.05"/>
+			<item name="bookRangersCripplingShot" prob="0.05"/>
+			<item name="bookRangersKnockdown" prob="0.05"/>
+			<item name="bookRangersFlamingArrows" prob="0.05"/>
+			<item name="bookRangersAPAmmo" prob="0.05"/>
+			<item name="bookRangersExplodingBolts" prob="0.05"/>
+			<item name="bookRangersForestGuide" prob="0.05"/>
 		
-			<item name="bookSpearHunter1Damage" prob="0.2"/>
-			<item name="bookSpearHunter2Maintenance" prob="0.2"/>
-			<item name="bookSpearHunter3Bleed" prob="0.2"/>
-			<item name="bookSpearHunter4KillMove" prob="0.2"/>
-			<item name="bookSpearHunter5RapidStrike" prob="0.2"/>
-			<item name="bookSpearHunter6PenetratingShaft" prob="0.2"/>
-			<item name="bookSpearHunter7QuickStrike" prob="0.2"/>
+			<item name="bookSpearHunter1Damage" prob="0.05"/>
+			<item name="bookSpearHunter2Maintenance" prob="0.05"/>
+			<item name="bookSpearHunter3Bleed" prob="0.05"/>
+			<item name="bookSpearHunter4KillMove" prob="0.05"/>
+			<item name="bookSpearHunter5RapidStrike" prob="0.05"/>
+			<item name="bookSpearHunter6PenetratingShaft" prob="0.05"/>
+			<item name="bookSpearHunter7QuickStrike" prob="0.05"/>
 			
-			<item name="bookHuntingJournalBears" prob="0.2"/>
-			<item name="bookHuntingJournalCoyotes" prob="0.2"/>
-			<item name="bookHuntingJournalDeer" prob="0.2"/>
-			<item name="bookHuntingJournalMountainLions" prob="0.2"/>
-			<item name="bookHuntingJournalVultures" prob="0.2"/>
-			<item name="bookHuntingJournalWolves" prob="0.2"/>
-			<item name="bookHuntingJournalSelfDefense" prob="0.2"/>
+			<item name="bookHuntingJournalBears" prob="0.05"/>
+			<item name="bookHuntingJournalCoyotes" prob="0.05"/>
+			<item name="bookHuntingJournalDeer" prob="0.05"/>
+			<item name="bookHuntingJournalMountainLions" prob="0.05"/>
+			<item name="bookHuntingJournalVultures" prob="0.05"/>
+			<item name="bookHuntingJournalWolves" prob="0.05"/>
+			<item name="bookHuntingJournalSelfDefense" prob="0.05"/>
 			
-			<item name="bookBatterUpFoulBalls" prob="0.2"/>
-			<item name="bookBatterUpBigHits" prob="0.2"/>
-			<item name="bookBatterUpStealingBases" prob="0.2"/>
-			<item name="bookBatterUpKnockdown" prob="0.2"/>
-			<item name="bookBatterUpSlowPitch" prob="0.2"/>
-			<item name="bookBatterUpMaintenance" prob="0.2"/>
-			<item name="bookBatterUpMetalChain" prob="0.2"/>
+			<item name="bookBatterUpFoulBalls" prob="0.05"/>
+			<item name="bookBatterUpBigHits" prob="0.05"/>
+			<item name="bookBatterUpStealingBases" prob="0.05"/>
+			<item name="bookBatterUpKnockdown" prob="0.05"/>
+			<item name="bookBatterUpSlowPitch" prob="0.05"/>
+			<item name="bookBatterUpMaintenance" prob="0.05"/>
+			<item name="bookBatterUpMetalChain" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponSkillMagazinesOnly']">
 		<lootgroup name="groupMilitaryBooks" count="1">
-			<item name="bookSniperAPAmmo" prob="0.2"/>
-			<item name="bookSniperControlledBreathing" prob="0.2"/>
-			<item name="bookSniperCripplingShot" prob="0.2"/>
-			<item name="bookSniperDamage" prob="0.2"/>
-			<item name="bookSniperHeadShot" prob="0.2"/>
-			<item name="bookSniperReload" prob="0.2"/>
-			<item name="bookSniperHPAmmo" prob="0.2"/>
+			<item name="bookSniperAPAmmo" prob="0.05"/>
+			<item name="bookSniperControlledBreathing" prob="0.05"/>
+			<item name="bookSniperCripplingShot" prob="0.05"/>
+			<item name="bookSniperDamage" prob="0.05"/>
+			<item name="bookSniperHeadShot" prob="0.05"/>
+			<item name="bookSniperReload" prob="0.05"/>
+			<item name="bookSniperHPAmmo" prob="0.05"/>
 			
-			<item name="bookAutoWeaponsDamage" prob="0.2"/>
-			<item name="bookAutoWeaponsRagdoll" prob="0.2"/>
-			<item name="bookAutoWeaponsMaintenance" prob="0.2"/>
-			<item name="bookAutoWeaponsRecoil" prob="0.2"/>
-			<item name="bookAutoWeaponsDrumMag" prob="0.2"/>
-			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.2"/>
-			<item name="bookAutoWeaponsMachineGuns" prob="0.2"/>
+			<item name="bookAutoWeaponsDamage" prob="0.05"/>
+			<item name="bookAutoWeaponsRagdoll" prob="0.05"/>
+			<item name="bookAutoWeaponsMaintenance" prob="0.05"/>
+			<item name="bookAutoWeaponsRecoil" prob="0.05"/>
+			<item name="bookAutoWeaponsDrumMag" prob="0.05"/>
+			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.05"/>
+			<item name="bookAutoWeaponsMachineGuns" prob="0.05"/>
 			
-			<item name="bookShotgunMessiahBreachingSlugs" prob="0.2"/>
-			<item name="bookShotgunMessiahDamage" prob="0.2"/>
-			<item name="bookShotgunMessiahLimbShot" prob="0.2"/>
-			<item name="bookShotgunMessiahMaintenance" prob="0.2"/>
-			<item name="bookShotgunMessiahMagazine" prob="0.2"/>
-			<item name="bookShotgunMessiahPartyStarter" prob="0.2"/>
-			<item name="bookShotgunMessiahSlugs" prob="0.2"/>
+			<item name="bookShotgunMessiahBreachingSlugs" prob="0.05"/>
+			<item name="bookShotgunMessiahDamage" prob="0.05"/>
+			<item name="bookShotgunMessiahLimbShot" prob="0.05"/>
+			<item name="bookShotgunMessiahMaintenance" prob="0.05"/>
+			<item name="bookShotgunMessiahMagazine" prob="0.05"/>
+			<item name="bookShotgunMessiahPartyStarter" prob="0.05"/>
+			<item name="bookShotgunMessiahSlugs" prob="0.05"/>
 			
-			<item name="bookPistolPeteAPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteDamage" prob="0.2"/>
-			<item name="bookPistolPeteHPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteMaintenance" prob="0.2"/>
-			<item name="bookPistolPeteSteadyHand" prob="0.2"/>
-			<item name="bookPistolPeteSwissKnees" prob="0.2"/>
-			<item name="bookPistolPeteTakeAim" prob="0.2"/>
+			<item name="bookPistolPeteAPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteDamage" prob="0.05"/>
+			<item name="bookPistolPeteHPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteMaintenance" prob="0.05"/>
+			<item name="bookPistolPeteSteadyHand" prob="0.05"/>
+			<item name="bookPistolPeteSwissKnees" prob="0.05"/>
+			<item name="bookPistolPeteTakeAim" prob="0.05"/>
 			
-			<item name="bookUrbanCombatAdrenalineRush" prob="0.2"/>
-			<item name="bookUrbanCombatCigar" prob="0.2"/>
-			<item name="bookUrbanCombatRoomClearing" prob="0.2"/>
-			<item name="bookUrbanCombatJumping" prob="0.2"/>
-			<item name="bookUrbanCombatLandMines" prob="0.2"/>
-			<item name="bookUrbanCombatLanding" prob="0.2"/>
-			<item name="bookUrbanCombatSneaking" prob="0.2"/>
+			<item name="bookUrbanCombatAdrenalineRush" prob="0.05"/>
+			<item name="bookUrbanCombatCigar" prob="0.05"/>
+			<item name="bookUrbanCombatRoomClearing" prob="0.05"/>
+			<item name="bookUrbanCombatJumping" prob="0.05"/>
+			<item name="bookUrbanCombatLandMines" prob="0.05"/>
+			<item name="bookUrbanCombatLanding" prob="0.05"/>
+			<item name="bookUrbanCombatSneaking" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupUtilityItems']">
 		<lootgroup name="groupWorkingStiffsBooks" count="1">
-			<item name="harvestingToolsSkillMagazine" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" prob="0.2"/>
-			<item name="sledgehammersSkillMagazine" prob="0.2"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+			<item name="harvestingToolsSkillMagazine" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" prob="0.05"/>
+			<item name="sledgehammersSkillMagazine" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		
-			<item name="bookArtOfMiningLuckyStrike" prob="0.2"/>
-			<item name="bookArtOfMiningDiamondTools" prob="0.2"/>
-			<item name="bookArtOfMiningCoffee" prob="0.2"/>
-			<item name="bookArtOfMiningBlackStrap" prob="0.2"/>
-			<item name="bookArtOfMiningPallets" prob="0.2"/>
-			<item name="bookArtOfMiningAvalanche" prob="0.2"/>
-			<item name="bookArtOfMiningDamage" prob="0.2"/>
+			<item name="bookArtOfMiningLuckyStrike" prob="0.05"/>
+			<item name="bookArtOfMiningDiamondTools" prob="0.05"/>
+			<item name="bookArtOfMiningCoffee" prob="0.05"/>
+			<item name="bookArtOfMiningBlackStrap" prob="0.05"/>
+			<item name="bookArtOfMiningPallets" prob="0.05"/>
+			<item name="bookArtOfMiningAvalanche" prob="0.05"/>
+			<item name="bookArtOfMiningDamage" prob="0.05"/>
 			
-			<item name="bookWasteTreasuresAcid" prob="0.2"/>
-			<item name="bookWasteTreasuresCloth" prob="0.2"/>
-			<item name="bookWasteTreasuresCoffins" prob="0.2"/>
-			<item name="bookWasteTreasuresDoors" prob="0.2"/>
-			<item name="bookWasteTreasuresHoney" prob="0.2"/>
-			<item name="bookWasteTreasuresSinks" prob="0.2"/>
-			<item name="bookWasteTreasuresWater" prob="0.2"/>
+			<item name="bookWasteTreasuresAcid" prob="0.05"/>
+			<item name="bookWasteTreasuresCloth" prob="0.05"/>
+			<item name="bookWasteTreasuresCoffins" prob="0.05"/>
+			<item name="bookWasteTreasuresDoors" prob="0.05"/>
+			<item name="bookWasteTreasuresHoney" prob="0.05"/>
+			<item name="bookWasteTreasuresSinks" prob="0.05"/>
+			<item name="bookWasteTreasuresWater" prob="0.05"/>
 			
-			<item name="bookFiremansAlmanacSpeed" prob="0.2"/>
-			<item name="bookFiremansAlmanacAxes" prob="0.2"/>
-			<item name="bookFiremansAlmanacEquipment" prob="0.2"/>
-			<item name="bookFiremansAlmanacPrevention" prob="0.2"/>
-			<item name="bookFiremansAlmanacHarvest" prob="0.2"/>
-			<item name="bookFiremansAlmanacHeat" prob="0.2"/>
-			<item name="bookFiremansAlmanacMolotov" prob="0.2"/>
+			<item name="bookFiremansAlmanacSpeed" prob="0.05"/>
+			<item name="bookFiremansAlmanacAxes" prob="0.05"/>
+			<item name="bookFiremansAlmanacEquipment" prob="0.05"/>
+			<item name="bookFiremansAlmanacPrevention" prob="0.05"/>
+			<item name="bookFiremansAlmanacHarvest" prob="0.05"/>
+			<item name="bookFiremansAlmanacHeat" prob="0.05"/>
+			<item name="bookFiremansAlmanacMolotov" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffs02']">
 		<lootgroup name="groupWorkingStiffs03" count="1,2">
-			<item group="groupCraftingRare" prob="0.2"/>
-			<item group="groupBuildingRare" prob="0.2"/>
-			<item group="groupWorkingStiffsBooks" prob="0.2"/>
-			<item group="workstationToolsScaled" prob="0.2"/>
+			<item group="groupCraftingRare" prob="0.05"/>
+			<item group="groupBuildingRare" prob="0.05"/>
+			<item group="groupWorkingStiffsBooks" prob="0.05"/>
+			<item group="workstationToolsScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='vehiclePartsTiered']">
 		<!-- *** Shamway_Loot -->
-		<lootgroup name="shamwaySafeFiller">
+		<lootgroup name="shamwaySafeFiller" count="1">
 			<item name="foodCanSham" count="1,3"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
 			<item name="resourcePaper" count="5,20"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupJunkNoBMats02']">
 		<lootgroup name="groupJunkNoBMats03" count="1">
-			<item group="groupScrapRare" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
-			<item group="groupValuablesSmall" prob="0.2"/>
-			<item name="resourceLockPick" count="1,2" prob="0.2"/>
+			<item group="groupScrapRare" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
+			<item group="groupValuablesSmall" prob="0.05"/>
+			<item name="resourceLockPick" count="1,2" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupPOIStorageBox01']">
-		<lootgroup name="groupPOIStorageBox02">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
-			<item name="resourceGoldNugget" prob="0.2"/>
+		<lootgroup name="groupPOIStorageBox02" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
+			<item name="resourceGoldNugget" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBathtub']">
 		<!-- *** File_Cabinet -->
-		<lootgroup name="groupFileCabinet01">
-			<item name="resourcePaper" count="4,10" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
+		<lootgroup name="groupFileCabinet01" count="1">
+			<item name="resourcePaper" count="4,10" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFileCabinet01']">
 		<lootgroup name="groupFileCabinet02" count="1">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFireTruck01']">
 		<lootgroup name="groupFireTruck02" count="1">
-			<item name="bookFiremansAlmanacSpeed" prob="0.2"/>
-			<item name="bookFiremansAlmanacAxes" prob="0.2"/>
-			<item name="bookFiremansAlmanacEquipment" prob="0.2"/>
-			<item name="bookFiremansAlmanacPrevention" prob="0.2"/>
-			<item name="bookFiremansAlmanacHarvest" prob="0.2"/>
-			<item name="bookFiremansAlmanacHeat" prob="0.2"/>
-			<item name="bookFiremansAlmanacMolotov" prob="0.2"/>
+			<item name="bookFiremansAlmanacSpeed" prob="0.05"/>
+			<item name="bookFiremansAlmanacAxes" prob="0.05"/>
+			<item name="bookFiremansAlmanacEquipment" prob="0.05"/>
+			<item name="bookFiremansAlmanacPrevention" prob="0.05"/>
+			<item name="bookFiremansAlmanacHarvest" prob="0.05"/>
+			<item name="bookFiremansAlmanacHeat" prob="0.05"/>
+			<item name="bookFiremansAlmanacMolotov" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupToolbox']">
 		<!-- *** MoPower_Loot -->
-		<lootgroup name="groupStunBaton">
-			<item name="roboticsSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupStunBaton" count="1">
+			<item name="roboticsSkillMagazine" prob="0.05"/>
 			<item name="meleeWpnBatonT2StunBatonParts" loot_prob_template="med"/>
 			<item name="meleeWpnBatonT2StunBaton" loot_prob_template="med"/>
 		</lootgroup>
@@ -614,150 +614,150 @@
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupStunBaton']">
 		<lootgroup name="groupTechJunkieBooks" count="1">
-			<item name="bookTechJunkie1Damage" prob="0.2"/>
-			<item name="bookTechJunkie2Maintenance" prob="0.2"/>
-			<item name="bookTechJunkie3APAmmo" prob="0.2"/>
-			<item name="bookTechJunkie4Shells" prob="0.2"/>
-			<item name="bookTechJunkie5Repulsor" prob="0.2"/>
-			<item name="bookTechJunkie6BatonCharge" prob="0.2"/>
-			<item name="bookTechJunkie7Hydraulics" prob="0.2"/>
+			<item name="bookTechJunkie1Damage" prob="0.05"/>
+			<item name="bookTechJunkie2Maintenance" prob="0.05"/>
+			<item name="bookTechJunkie3APAmmo" prob="0.05"/>
+			<item name="bookTechJunkie4Shells" prob="0.05"/>
+			<item name="bookTechJunkie5Repulsor" prob="0.05"/>
+			<item name="bookTechJunkie6BatonCharge" prob="0.05"/>
+			<item name="bookTechJunkie7Hydraulics" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupPoliceCarBonus']">
 		<!-- *** Bookcase_Loot -->
-		<lootgroup name="groupBookcase01">
-			<item name="resourcePaper" count="1,5" prob="0.2"/>
-			<item group="skillMagazines" count="1,3" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupBookcase01" count="1">
+			<item name="resourcePaper" count="1,5" prob="0.05"/>
+			<item group="skillMagazines" count="1,3" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBookcase01']">
-		<lootgroup name="groupBookcase02">
-			<item name="resourcePaper" count="1,5" prob="0.2"/>
-			<item group="skillMagazines" count="1,3" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupBookcase02" count="1">
+			<item name="resourcePaper" count="1,5" prob="0.05"/>
+			<item group="skillMagazines" count="1,3" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBookcase02']">
 		<lootgroup name="groupBookcase" count="1">
-			<item group="groupBookcase01" count="1" prob="0.2"/>
-			<item group="groupBookcase02" count="1" prob="0.2"/>
+			<item group="groupBookcase01" count="1" prob="0.05"/>
+			<item group="groupBookcase02" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBookcase']">
 		<!-- *** Mailbox_Loot -->
-		<lootgroup name="groupMailbox01">
-			<item group="perkBooks" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
+		<lootgroup name="groupMailbox01" count="1">
+			<item group="perkBooks" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
 			<item name="resourcePaper" count="3,6" loot_prob_template="medLow"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMailbox01']">
-		<lootgroup name="groupMailbox02">
-			<item name="resourcePaper" count="3,6" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
+		<lootgroup name="groupMailbox02" count="1">
+			<item name="resourcePaper" count="3,6" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMailbox']">
 		<!-- *** Book_Pile -->
-		<lootgroup name="groupBookPile01">
-			<item group="skillMagazines" count="1,2" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupBookPile01" count="1">
+			<item group="skillMagazines" count="1,2" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBookPile01']">
-		<lootgroup name="groupBookPile" count="all">
+		<lootgroup name="groupBookPile" count="1">
 			<item group="groupBookPile01" count="1"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBookPile']">
 		<!-- *** Single_Books -->
-		<lootgroup name="groupSingleBooks01">
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupSingleBooks01" count="1">
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSingleBooks01']">
-		<lootgroup name="groupSingleBooks" count="all">
+		<lootgroup name="groupSingleBooks" count="1">
 			<item group="groupSingleBooks01" count="1"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSingleBooks']">
 		<!-- *** Crackabook_Shelves -->
-		<lootgroup name="groupCrackabookShelves01">
-			<item name="resourcePaper" count="1,5" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupCrackabookShelves01" count="1">
+			<item name="resourcePaper" count="1,5" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookShelves01']">
-		<lootgroup name="groupCrackabookShelves02">
-			<item group="booksAllScaled" prob="0.2"/>
+		<lootgroup name="groupCrackabookShelves02" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookShelves02']">
 		<lootgroup name="groupCrackabookShelves" count="1">
 			<item group="groupCrackabookShelves01" count="1"/>
-			<item group="groupCrackabookShelves02" prob="0.2"/>
+			<item group="groupCrackabookShelves02" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookShelves']">
 		<!-- *** Crackabook_Crate -->
 		<lootgroup name="groupCrackabookCrate01" count="1">
-			<item group="skillMagazines" count="1" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate01']">
-		<lootgroup name="groupCrackabookCrate02">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
+		<lootgroup name="groupCrackabookCrate02" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate02']">
-		<lootgroup name="groupCrackabookCrate03">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" count="1" prob="0.2"/>
+		<lootgroup name="groupCrackabookCrate03" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate03']">
 		<lootgroup name="groupCrackabookCrate" count="1">
 			<item group="groupCrackabookCrate01" count="1"/>
-			<item group="groupCrackabookCrate02" prob="0.2"/>
-			<item group="groupCrackabookCrate03" prob="0.2"/>
+			<item group="groupCrackabookCrate02" prob="0.05"/>
+			<item group="groupCrackabookCrate03" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackReg01']">
-		<lootgroup name="groupZpackReg02">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.2"/>
+		<lootgroup name="groupZpackReg02" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackStrong01']">
-		<lootgroup name="groupZpackStrong02">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.2"/>
+		<lootgroup name="groupZpackStrong02" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="groupChallengeRewardSkillMagazinesAll" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
@@ -765,75 +765,75 @@
 		<!-- *** Shotgun_Messiah_Crate -->
 		<lootgroup name="groupShotgunMessiahBooks" count="1">
 			
-			<item name="handgunsSkillMagazine" prob="0.2"/>
-			<item name="shotgunsSkillMagazine" prob="0.2"/>
-			<item name="riflesSkillMagazine" prob="0.2"/>
-			<item name="machineGunsSkillMagazine" prob="0.2"/>
-			<item name="explosivesSkillMagazine" prob="0.2"/>
+			<item name="handgunsSkillMagazine" prob="0.05"/>
+			<item name="shotgunsSkillMagazine" prob="0.05"/>
+			<item name="riflesSkillMagazine" prob="0.05"/>
+			<item name="machineGunsSkillMagazine" prob="0.05"/>
+			<item name="explosivesSkillMagazine" prob="0.05"/>
 			
-			<item name="bookPistolPeteAPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteDamage" prob="0.2"/>
-			<item name="bookPistolPeteHPAmmo" prob="0.2"/>
-			<item name="bookPistolPeteMaintenance" prob="0.2"/>
-			<item name="bookPistolPeteSteadyHand" prob="0.2"/>
-			<item name="bookPistolPeteSwissKnees" prob="0.2"/>
-			<item name="bookPistolPeteTakeAim" prob="0.2"/>
+			<item name="bookPistolPeteAPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteDamage" prob="0.05"/>
+			<item name="bookPistolPeteHPAmmo" prob="0.05"/>
+			<item name="bookPistolPeteMaintenance" prob="0.05"/>
+			<item name="bookPistolPeteSteadyHand" prob="0.05"/>
+			<item name="bookPistolPeteSwissKnees" prob="0.05"/>
+			<item name="bookPistolPeteTakeAim" prob="0.05"/>
 		
-			<item name="bookEnforcerAPAmmo" prob="0.2"/>
-			<item name="bookEnforcerApparel" prob="0.2"/>
-			<item name="bookEnforcerCriminalPursuit" prob="0.2"/>
-			<item name="bookEnforcerHPAmmo" prob="0.2"/>
-			<item name="bookEnforcerDamage" prob="0.2"/>
-			<item name="bookEnforcerIntimidation" prob="0.2"/>
-			<item name="bookEnforcerPunks" prob="0.2"/>
+			<item name="bookEnforcerAPAmmo" prob="0.05"/>
+			<item name="bookEnforcerApparel" prob="0.05"/>
+			<item name="bookEnforcerCriminalPursuit" prob="0.05"/>
+			<item name="bookEnforcerHPAmmo" prob="0.05"/>
+			<item name="bookEnforcerDamage" prob="0.05"/>
+			<item name="bookEnforcerIntimidation" prob="0.05"/>
+			<item name="bookEnforcerPunks" prob="0.05"/>
 			
-			<item name="bookShotgunMessiahBreachingSlugs" prob="0.2"/>
-			<item name="bookShotgunMessiahDamage" prob="0.2"/>
-			<item name="bookShotgunMessiahLimbShot" prob="0.2"/>
-			<item name="bookShotgunMessiahMaintenance" prob="0.2"/>
-			<item name="bookShotgunMessiahMagazine" prob="0.2"/>
-			<item name="bookShotgunMessiahPartyStarter" prob="0.2"/>
-			<item name="bookShotgunMessiahSlugs" prob="0.2"/>
+			<item name="bookShotgunMessiahBreachingSlugs" prob="0.05"/>
+			<item name="bookShotgunMessiahDamage" prob="0.05"/>
+			<item name="bookShotgunMessiahLimbShot" prob="0.05"/>
+			<item name="bookShotgunMessiahMaintenance" prob="0.05"/>
+			<item name="bookShotgunMessiahMagazine" prob="0.05"/>
+			<item name="bookShotgunMessiahPartyStarter" prob="0.05"/>
+			<item name="bookShotgunMessiahSlugs" prob="0.05"/>
 		
-			<item name="bookSniperAPAmmo" prob="0.2"/>
-			<item name="bookSniperControlledBreathing" prob="0.2"/>
-			<item name="bookSniperCripplingShot" prob="0.2"/>
-			<item name="bookSniperDamage" prob="0.2"/>
-			<item name="bookSniperHeadShot" prob="0.2"/>
-			<item name="bookSniperReload" prob="0.2"/>
-			<item name="bookSniperHPAmmo" prob="0.2"/>
+			<item name="bookSniperAPAmmo" prob="0.05"/>
+			<item name="bookSniperControlledBreathing" prob="0.05"/>
+			<item name="bookSniperCripplingShot" prob="0.05"/>
+			<item name="bookSniperDamage" prob="0.05"/>
+			<item name="bookSniperHeadShot" prob="0.05"/>
+			<item name="bookSniperReload" prob="0.05"/>
+			<item name="bookSniperHPAmmo" prob="0.05"/>
 			
-			<item name="bookAutoWeaponsDamage" prob="0.2"/>
-			<item name="bookAutoWeaponsRagdoll" prob="0.2"/>
-			<item name="bookAutoWeaponsMaintenance" prob="0.2"/>
-			<item name="bookAutoWeaponsRecoil" prob="0.2"/>
-			<item name="bookAutoWeaponsDrumMag" prob="0.2"/>
-			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.2"/>
-			<item name="bookAutoWeaponsMachineGuns" prob="0.2"/>
+			<item name="bookAutoWeaponsDamage" prob="0.05"/>
+			<item name="bookAutoWeaponsRagdoll" prob="0.05"/>
+			<item name="bookAutoWeaponsMaintenance" prob="0.05"/>
+			<item name="bookAutoWeaponsRecoil" prob="0.05"/>
+			<item name="bookAutoWeaponsDrumMag" prob="0.05"/>
+			<item name="bookAutoWeaponsUncontrolledBurst" prob="0.05"/>
+			<item name="bookAutoWeaponsMachineGuns" prob="0.05"/>
 		
-			<item name="bookUrbanCombatAdrenalineRush" prob="0.2"/>
-			<item name="bookUrbanCombatCigar" prob="0.2"/>
-			<item name="bookUrbanCombatRoomClearing" prob="0.2"/>
-			<item name="bookUrbanCombatJumping" prob="0.2"/>
-			<item name="bookUrbanCombatLandMines" prob="0.2"/>
-			<item name="bookUrbanCombatLanding" prob="0.2"/>
-			<item name="bookUrbanCombatSneaking" prob="0.2"/>
+			<item name="bookUrbanCombatAdrenalineRush" prob="0.05"/>
+			<item name="bookUrbanCombatCigar" prob="0.05"/>
+			<item name="bookUrbanCombatRoomClearing" prob="0.05"/>
+			<item name="bookUrbanCombatJumping" prob="0.05"/>
+			<item name="bookUrbanCombatLandMines" prob="0.05"/>
+			<item name="bookUrbanCombatLanding" prob="0.05"/>
+			<item name="bookUrbanCombatSneaking" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupZpackBoss03']">
-		<lootgroup name="groupZpackBoss04">
+		<lootgroup name="groupZpackBoss04" count="1">
 			<item group="groupRareToolsTiered" loot_prob_template="high"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
 			<item group="groupWeaponsAllScaledNoStone" loot_prob_template="high"/>
 			<item name="casinoCoin" count="600,800" loot_prob_template="med"/>
 			<item name="oldCash" count="600,800" loot_prob_template="med"/>
 			<item group="groupMedicalRare" loot_prob_template="medHigh"/>
-			<item group="groupTreasureMaps" prob="0.2"/>
-			<item name="modArmorNightVision" prob="0.2"/>
+			<item group="groupTreasureMaps" prob="0.05"/>
+			<item name="modArmorNightVision" prob="0.05"/>
 			<item group="groupModAllScaled" loot_prob_template="med"/>
 			<item group="vehiclePartsTiered" loot_prob_template="med"/>
-			<item name="modArmorHelmetLight" prob="0.2"/>
+			<item name="modArmorHelmetLight" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
@@ -841,181 +841,181 @@
 		<!-- *** Pop-N-Pills_Crate -->
 		<lootgroup name="groupPopNPillsBooks" count="1">
 		
-			<item name="medicalSkillMagazine" prob="0.2"/>
-			<item name="knucklesSkillMagazine" prob="0.2"/>
+			<item name="medicalSkillMagazine" prob="0.05"/>
+			<item name="knucklesSkillMagazine" prob="0.05"/>
 		
-			<item name="bookBarBrawling1BasicMoves" prob="0.2"/>
-			<item name="bookBarBrawling2DropABomb" prob="0.2"/>
-			<item name="bookBarBrawling3KillerInstinct" prob="0.2"/>
-			<item name="bookBarBrawling4FinishingMoves" prob="0.2"/>
-			<item name="bookBarBrawling5AdrenalineHealing" prob="0.2"/>
-			<item name="bookBarBrawling6RageMode" prob="0.2"/>
-			<item name="bookBarBrawling7BoozedUp" prob="0.2"/>
+			<item name="bookBarBrawling1BasicMoves" prob="0.05"/>
+			<item name="bookBarBrawling2DropABomb" prob="0.05"/>
+			<item name="bookBarBrawling3KillerInstinct" prob="0.05"/>
+			<item name="bookBarBrawling4FinishingMoves" prob="0.05"/>
+			<item name="bookBarBrawling5AdrenalineHealing" prob="0.05"/>
+			<item name="bookBarBrawling6RageMode" prob="0.05"/>
+			<item name="bookBarBrawling7BoozedUp" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupReinforcedChestT3_04']">
 		<lootgroup name="groupReinforcedChestT3_05" count="1">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupTreasureMaps" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupTreasureMaps" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 	
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT4_06']">
-		<lootgroup name="groupHardenedChestT4_07">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupTreasureMaps" prob="0.2"/>
+		<lootgroup name="groupHardenedChestT4_07" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupTreasureMaps" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHardenedChestT5_04']">
-		<lootgroup name="groupHardenedChestT5_05">
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupTreasureMaps" prob="0.2"/>
+		<lootgroup name="groupHardenedChestT5_05" count="1">
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupTreasureMaps" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupLaundry']">
 		<!-- *** Desks_Loot -->
-		<lootgroup name="groupDesks01">
+		<lootgroup name="groupDesks01" count="1">
 			<item group="groupArmorParts" loot_prob_template="high"/>
 			<item group="groupJunkNoBMats" loot_prob_template="med"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupAmmoSmall" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupAmmoSmall" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupDesks02']">
-		<lootgroup name="groupDesks" count="all">
+		<lootgroup name="groupDesks" count="1">
 			<item group="groupDesks01" count="1"/>
-			<item group="groupDesks02" loot_prob_template="veryLow" force_prob="true"/>
+			<item group="groupDesks02" loot_prob_template="veryLow"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupDesks']">
 		<!-- *** Luggage_Loot -->
-		<lootgroup name="groupLuggage01">
+		<lootgroup name="groupLuggage01" count="1">
 			<item group="groupArmorParts"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupLuggage01']">
-		<lootgroup name="groupLuggage02">
-			<item group="groupFoodCommon" prob="0.2"/>
+		<lootgroup name="groupLuggage02" count="1">
+			<item group="groupFoodCommon" prob="0.05"/>
 			<item group="groupDrinksCommon" loot_prob_template="medHigh"/>
 			<item group="groupArmorScaled" loot_prob_template="med"/>
 			<item group="groupMedicalCommon" loot_prob_template="medLow"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupAmmoSmall" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupAmmoSmall" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupLocker01']">
-		<lootgroup name="groupLocker02">
-			<item group="groupWeaponsAllScaled" prob="0.2"/>
+		<lootgroup name="groupLocker02" count="1">
+			<item group="groupWeaponsAllScaled" prob="0.05"/>
 			<item group="groupWeaponModsScaled" loot_prob_template="med"/>
-			<item group="groupToolsTiered" prob="0.2"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="groupToolsTiered" prob="0.05"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupOven']">
 		<!-- *** Hidden_Stash -->
-		<lootgroup name="groupHiddenStash01">
+		<lootgroup name="groupHiddenStash01" count="1">
 			<item group="groupAmmoPileLarge" loot_prob_template="med"/>
 			<item group="groupModAllScaled" loot_prob_template="med"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHiddenStash01']">
-		<lootgroup name="groupHiddenStash02">
+		<lootgroup name="groupHiddenStash02" count="1">
 			<item group="groupWeaponsAllScaledNoStone" loot_prob_template="med"/>
 			<item group="groupArmorChests" loot_prob_template="med"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
 			<item group="groupValuablesLarge" loot_prob_template="med"/>
-			<item name="workstationSkillMagazine" count="1" prob="0.2"/>
+			<item name="workstationSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupAirDrop02']">
-		<lootgroup name="groupAirDrop03">
+		<lootgroup name="groupAirDrop03" count="1">
 			<item group="groupToolsTiered"/>
 			<item group="groupAmmoLarge"/>
 			<item group="groupArmorScaled"/>
 			<item group="groupWeaponsAllScaled"/>
 			<item group="groupModAllScaled"/>
-			<item group="booksAllScaled" prob="0.2"/>
-			<item group="booksRareOnlyScaled" prob="0.2"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+			<item group="booksAllScaled" prob="0.05"/>
+			<item group="booksRareOnlyScaled" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='vehicleModSchematics']">
 		<!-- *** T0_Vehicle_Schematics -->
-		<lootgroup name="schematicsVehiclesT0">
+		<lootgroup name="schematicsVehiclesT0" count="1">
 			<item group="vehicleModSchematics01"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT0']">
 		<!-- *** T1_Vehicle_Schematics -->
-		<lootgroup name="schematicsVehiclesT1">
+		<lootgroup name="schematicsVehiclesT1" count="1">
 			<item group="vehicleModSchematics02"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='schematicsVehiclesT1']">
 		<!-- *** T2_Vehicle_Schematics -->
-		<lootgroup name="schematicsVehiclesT2">
+		<lootgroup name="schematicsVehiclesT2" count="1">
 			<item group="vehicleModSchematics03"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='booksRareOnlyScaled']">
-		<lootgroup name="groupSchematicsAll">
+		<lootgroup name="groupSchematicsAll" count="1">
 			<item group="schematicsModsAndGeneralCommon" loot_prob_template="med"/>
-			<item group="schematicsVehiclesCommon" prob="0.2"/>
-			<item group="skillMagazines" prob="0.2"/>
+			<item group="schematicsVehiclesCommon" prob="0.05"/>
+			<item group="skillMagazines" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSchematicsAll']">
 		<!-- *** Electrical_Devices -->
-		<lootgroup name="groupElectricalDevices">
+		<lootgroup name="groupElectricalDevices" count="1">
 			<item name="resourceElectricParts" count="5,10" loot_prob_template="high"/>
 			<item name="electricwirerelay" count="5,15" loot_prob_template="med"/>
 			<item name="electrictimerrelay" count="1,3" loot_prob_template="med"/>
 			<item name="ceilingLight01_player" count="1,6" loot_prob_template="med"/>
 			<item name="switch" count="1,3" loot_prob_template="med"/>
-			<item name="speaker" count="1" prob="0.2"/>
-			<item name="motionsensor" count="1,2" prob="0.2"/>
-			<item name="pressureplate" count="1,5" prob="0.2"/>
-			<item name="batterybank" prob="0.2"/>
-			<item name="generatorbank" prob="0.2"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" count="1" prob="0.2"/>
+			<item name="speaker" count="1" prob="0.05"/>
+			<item name="motionsensor" count="1,2" prob="0.05"/>
+			<item name="pressureplate" count="1,5" prob="0.05"/>
+			<item name="batterybank" prob="0.05"/>
+			<item name="generatorbank" prob="0.05"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsBooks']">
-		<lootgroup name="groupWorkingStiffs01">
-			<item name="harvestingToolsSkillMagazine" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" prob="0.2"/>
-			<item name="sledgehammersSkillMagazine" prob="0.2"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupWorkingStiffs01" count="1">
+			<item name="harvestingToolsSkillMagazine" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" prob="0.05"/>
+			<item name="sledgehammersSkillMagazine" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 			<item name="frameShapes:VariantHelper" count="10,20" loot_prob_template="med"/>
 			<item group="toolParts" loot_prob_template="med"/>
 			<item group="groupToolsTieredBonus" loot_prob_template="medLow"/>
@@ -1024,179 +1024,179 @@
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWorkingStiffsCrate']">
 		<!-- *** Survival_Loot -->
-		<lootgroup name="survivalMedical">
+		<lootgroup name="survivalMedical" count="1">
 			<item name="medicalFirstAidBandage"/>
 			<item name="medicalAloeCream" count="1,2"/>
 			<item name="medicalBandage" count="1,2"/>
-			<item name="foodHoney" prob="0.2"/>
-			<item name="drugHerbalAntibiotics" prob="0.2"/>
+			<item name="foodHoney" prob="0.05"/>
+			<item name="drugHerbalAntibiotics" prob="0.05"/>
 			<item name="drugPainkillers"/>
 			<item name="drugVitamins"/>
-			<item name="medicalSplint" count="1" prob="0.2"/>
-			<item name="medicalSkillMagazine" prob="0.2"/>
+			<item name="medicalSplint" count="1" prob="0.05"/>
+			<item name="medicalSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestMedical']">
-		<lootgroup name="groupQuestSchematics">
+		<lootgroup name="groupQuestSchematics" count="1">
 			<item group="skillMagazines" loot_prob_template="high"/>
 			<item group="perkBooks" loot_prob_template="medHigh"/>
 			<item group="schematicsModsAndGeneralCommon" loot_prob_template="med"/>
-			<item name="foodCanShamSchematic" prob="0.2"/>
+			<item name="foodCanShamSchematic" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupQuestBicycle']">
-		<lootgroup name="groupQuestT1SkillMagazineBundle">
-			<item name="questRewardT1SkillMagazineBundle" prob="0.2"/>
+		<lootgroup name="groupQuestT1SkillMagazineBundle" count="1">
+			<item name="questRewardT1SkillMagazineBundle" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupChem01']">
 		<!-- *** Cupboard_Loot -->
-		<lootgroup name="groupCupboard01">
+		<lootgroup name="groupCupboard01" count="1">
 			<item group="groupFoodTrashUncommon" loot_prob_template="high"/>
-			<item group="groupFoodCommon" prob="0.2"/>
-			<item name="foodSkillMagazine" prob="0.2"/>
+			<item group="groupFoodCommon" prob="0.05"/>
+			<item name="foodSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCupboard01']">
-		<lootgroup name="groupCupboard02">
-			<item group="groupCookingTools" prob="0.2"/>
+		<lootgroup name="groupCupboard02" count="1">
+			<item group="groupCookingTools" prob="0.05"/>
 			<item group="groupIngredientsCommon" loot_prob_template="high"/>
-			<item name="foodSkillMagazine" prob="0.2"/>
-			<item group="seeds" prob="0.2"/>
+			<item name="foodSkillMagazine" prob="0.05"/>
+			<item group="seeds" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBuriedSuppliesT1_02']">
-		<lootgroup name="groupBuriedSuppliesT1_03">
-			<item name="foodSkillMagazine" prob="0.2"/>
-			<item name="seedSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupBuriedSuppliesT1_03" count="1">
+			<item name="foodSkillMagazine" prob="0.05"/>
+			<item name="seedSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupAmmoMunitions']">
 		<!-- *** Weapon_Bags -->
-		<lootgroup name="groupSmallWeaponBag" count="all">
+		<lootgroup name="groupSmallWeaponBag" count="1">
 			<item group="groupWeaponsLowHighMed" count="1"/>
-			<item group="weaponSkillMagazinesOnly" prob="0.2" force_prob="true"/>
-			<item group="groupWeaponsHighMedLow" loot_prob_template="med" force_prob="true"/>
-			<item group="groupSmallAmmoMedMed" prob="0.2" force_prob="true"/>
+			<item group="weaponSkillMagazinesOnly" prob="0.05"/>
+			<item group="groupWeaponsHighMedLow" loot_prob_template="med"/>
+			<item group="groupSmallAmmoMedMed" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSmallWeaponBag']">
-		<lootgroup name="groupLargeWeaponBag" count="all">
+		<lootgroup name="groupLargeWeaponBag" count="1">
 			<item group="groupWeaponsMedMedHigh" count="1"/>
-			<item group="weaponSkillMagazinesOnly" prob="0.2" force_prob="true"/>
-			<item group="groupWeaponsMedMedMed" loot_prob_template="high" force_prob="true"/>
-			<item group="groupSmallAmmoMedMed" loot_prob_template="high" force_prob="true"/>
+			<item group="weaponSkillMagazinesOnly" prob="0.05"/>
+			<item group="groupWeaponsMedMedMed" loot_prob_template="high"/>
+			<item group="groupSmallAmmoMedMed" loot_prob_template="high"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupSafeBooks']">
-		<lootgroup name="groupGunSafeSecure" count="all">
+		<lootgroup name="groupGunSafeSecure" count="1">
 			<item group="groupWeaponsMedMedHigh" count="1"/>
-			<item group="groupWeaponsMedMedMed" loot_prob_template="high" force_prob="true"/>
-			<item group="groupWeaponsMedMedMed" loot_prob_template="med" force_prob="true"/>
-			<item group="groupMedAmmoHighMed" loot_prob_template="high" force_prob="true"/>
-			<item group="groupSafeBooks" loot_prob_template="medLow" force_prob="true"/>
-			<item group="weaponSkillMagazinesOnly" prob="0.2" force_prob="true"/>
+			<item group="groupWeaponsMedMedMed" loot_prob_template="high"/>
+			<item group="groupWeaponsMedMedMed" loot_prob_template="med"/>
+			<item group="groupMedAmmoHighMed" loot_prob_template="high"/>
+			<item group="groupSafeBooks" loot_prob_template="medLow"/>
+			<item group="weaponSkillMagazinesOnly" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupGunSafeSecure']">
 		<!-- *** FOOD -->
-		<lootgroup name="groupFoodPileSmall" count="all">
+		<lootgroup name="groupFoodPileSmall" count="1">
 			<item group="groupFoodSmall01" count="1"/>
-			<item group="groupDrinksSmall01" loot_prob_template="med" force_prob="true"/>
-			<item group="groupIngredientsSmall01" prob="0.2" force_prob="true"/>
-			<item name="foodSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupDrinksSmall01" loot_prob_template="med"/>
+			<item group="groupIngredientsSmall01" prob="0.05"/>
+			<item name="foodSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFoodPileSmall']">
-		<lootgroup name="groupFoodPileMed" count="all">
+		<lootgroup name="groupFoodPileMed" count="1">
 			<item group="groupFoodMed01" count="1"/>
-			<item group="groupDrinksMed01" loot_prob_template="high" force_prob="true"/>
-			<item group="groupIngredientsMed01" loot_prob_template="med" force_prob="true"/>
-			<item group="groupIngredientsMed02" prob="0.2" force_prob="true"/>
-			<item name="foodSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupDrinksMed01" loot_prob_template="high"/>
+			<item group="groupIngredientsMed01" loot_prob_template="med"/>
+			<item group="groupIngredientsMed02" prob="0.05"/>
+			<item name="foodSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFoodPileMed']">
-		<lootgroup name="groupFoodPileLarge" count="all">
+		<lootgroup name="groupFoodPileLarge" count="1">
 			<item group="groupFoodLarge01" count="1"/>
 			<item group="groupDrinksLarge01" count="1"/>
-			<item group="groupFoodLarge02" loot_prob_template="med" force_prob="true"/>
-			<item group="groupDrinksLarge02" prob="0.2" force_prob="true"/>
-			<item group="groupIngredientsLarge01" loot_prob_template="med" force_prob="true"/>
-			<item group="groupIngredientsLarge02" prob="0.2" force_prob="true"/>
-			<item name="foodSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupFoodLarge02" loot_prob_template="med"/>
+			<item group="groupDrinksLarge02" prob="0.05"/>
+			<item group="groupIngredientsLarge01" loot_prob_template="med"/>
+			<item group="groupIngredientsLarge02" prob="0.05"/>
+			<item name="foodSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFoodPileLarge']">
 		<!-- *** Medical_Piles -->
-		<lootgroup name="groupMedicalPileSmall" count="all">
+		<lootgroup name="groupMedicalPileSmall" count="1">
 			<item group="groupMedicalSmall01" count="1"/>
-			<item group="groupMedicalSmall02" loot_prob_template="med" force_prob="true"/>
-			<item group="groupMedicalSmall03" prob="0.2" force_prob="true"/>
-			<item name="medicalSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupMedicalSmall02" loot_prob_template="med"/>
+			<item group="groupMedicalSmall03" prob="0.05"/>
+			<item name="medicalSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMedicalPileSmall']">
-		<lootgroup name="groupMedicalPileMed" count="all">
+		<lootgroup name="groupMedicalPileMed" count="1">
 			<item group="groupMedicalMed01" count="1"/>
-			<item group="groupMedicalMed02" loot_prob_template="high" force_prob="true"/>
-			<item group="groupMedicalMed03" loot_prob_template="med" force_prob="true"/>
-			<item group="groupMedicalMed04" prob="0.2" force_prob="true"/>
-			<item name="medicalSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupMedicalMed02" loot_prob_template="high"/>
+			<item group="groupMedicalMed03" loot_prob_template="med"/>
+			<item group="groupMedicalMed04" prob="0.05"/>
+			<item name="medicalSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupLiquorLarge01']">
-		<lootgroup name="groupLiquorBonus">
+		<lootgroup name="groupLiquorBonus" count="1">
 			<item name="drinkJarRiverWater" count="1" loot_prob_template="high"/>
 			<item name="drinkJarBeer" count="1" loot_prob_template="med"/>
-			<item name="drinkJarGrandpasMoonshine" count="1" prob="0.2"/>
-			<item name="drinkJarGrandpasAwesomeSauce" count="1" prob="0.2"/>
-			<item name="drinkJarGrandpasLearningElixir" count="1" prob="0.2"/>
-			<item name="drugRecog" count="1" prob="0.2"/>
-			<item name="foodSkillMagazine" count="0,1" prob="0.2"/>
+			<item name="drinkJarGrandpasMoonshine" count="1" prob="0.05"/>
+			<item name="drinkJarGrandpasAwesomeSauce" count="1" prob="0.05"/>
+			<item name="drinkJarGrandpasLearningElixir" count="1" prob="0.05"/>
+			<item name="drugRecog" count="1" prob="0.05"/>
+			<item name="foodSkillMagazine" count="0,1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupLiquorPileLarge']">
 		<!-- *** First_Aid_Station -->
-		<lootgroup name="groupMedicalPileLarge" count="all">
+		<lootgroup name="groupMedicalPileLarge" count="1">
 			<item group="groupMedicalLarge01" count="1"/>
-			<item group="groupMedicalLarge02" loot_prob_template="high" force_prob="true"/>
-			<item group="groupMedicalLarge03" loot_prob_template="med" force_prob="true"/>
-			<item name="medicalSkillMagazine" count="1" prob="0.2" force_prob="true"/>
+			<item group="groupMedicalLarge02" loot_prob_template="high"/>
+			<item group="groupMedicalLarge03" loot_prob_template="med"/>
+			<item name="medicalSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFootlockerWeapons02']">
-		<lootgroup name="groupMilitaryFootlocker01">
+		<lootgroup name="groupMilitaryFootlocker01" count="1">
 			<item group="groupAmmoSmall" loot_prob_template="high"/>
-			<item group="weaponSkillMagazinesOnly" prob="0.2"/>
+			<item group="weaponSkillMagazinesOnly" prob="0.05"/>
 			<item group="groupMilitaryBooks" loot_prob_template="med"/>
 			<item group="groupAmmoMedium" loot_prob_template="med"/>
-			<item group="groupAmmoLarge" prob="0.2"/>
-			<item group="groupTreasureMaps" prob="0.2"/>
-			<item name="meleeToolFlashlight02" prob="0.2"/>
+			<item group="groupAmmoLarge" prob="0.05"/>
+			<item group="groupTreasureMaps" prob="0.05"/>
+			<item name="meleeToolFlashlight02" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCars01']">
-		<lootgroup name="groupCars02">
-			<item group="skillMagazines" prob="0.2"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupCars02" count="1">
+			<item group="skillMagazines" prob="0.05"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 			<item group="groupToolsT0" loot_prob_template="ProbT0"/>
 			<item group="groupToolsT1" loot_prob_template="ProbT1"/>
 			<item group="groupWeaponsT0_Melee" loot_prob_template="ProbT0"/>
@@ -1205,201 +1205,201 @@
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCars02']">
-		<lootgroup name="groupCars03">
-			<item group="skillMagazines" prob="0.2"/>
-			<item group="groupAmmoSmall" prob="0.2"/>
-			<item group="groupAmmoMedium" prob="0.2"/>
+		<lootgroup name="groupCars03" count="1">
+			<item group="skillMagazines" prob="0.05"/>
+			<item group="groupAmmoSmall" prob="0.05"/>
+			<item group="groupAmmoMedium" prob="0.05"/>
 			<item group="groupWeaponsT0_Ranged" loot_prob_template="ProbT0"/>
 			<item group="groupWeaponsT1_Ranged" loot_prob_template="ProbT1"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupGarage01']">
-		<lootgroup name="groupGarage02">
-			<item group="dyes" prob="0.2"/>
-			<item name="resourceAcid" count="1"  prob="0.2"/>
-			<item group="groupElectricalDevices" prob="0.2"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupGarage02" count="1">
+			<item group="dyes" prob="0.05"/>
+			<item name="resourceAcid" count="1"  prob="0.05"/>
+			<item group="groupElectricalDevices" prob="0.05"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupWorkbenchLoot03']">
-		<lootgroup name="groupWorkbenchLoot04">
+		<lootgroup name="groupWorkbenchLoot04" count="1">
 			<item group="groupToolsTiered"/>
 			<item group="groupRareToolsTiered"/>
 			<item group="vehiclePartsTiered"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupForge02']">
-		<lootgroup name="groupForge" count="all">
+		<lootgroup name="groupForge" count="1">
 			<item group="groupForge01" count="1"/>
-			<item group="groupForge02" loot_prob_template="med" force_prob="true"/>
-			<item group="workstationToolsScaled" prob="0.2" force_prob="true"/>
-			<item name="workstationSkillMagazine" prob="0.2" force_prob="true"/>
+			<item group="groupForge02" loot_prob_template="med"/>
+			<item group="workstationToolsScaled" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCementMixerLoot02']">
-		<lootgroup name="groupCementMixerLoot" count="all">
+		<lootgroup name="groupCementMixerLoot" count="1">
 			<item group="groupCementMixerLoot01" count="1"/>
-			<item group="groupCementMixerLoot02" loot_prob_template="medLow" force_prob="true"/>
-			<item name="workstationSkillMagazine" prob="0.2" force_prob="true"/>
+			<item group="groupCementMixerLoot02" loot_prob_template="medLow"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot02']">
-		<lootgroup name="groupChemistryStationLoot03">
-			<item name="toolBeaker" prob="0.2"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupChemistryStationLoot03" count="1">
+			<item name="toolBeaker" prob="0.05"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupChemistryStationLoot']">
 		<!-- *** Dew_Collector -->
-		<lootgroup name="groupDewCollectorLoot01">
+		<lootgroup name="groupDewCollectorLoot01" count="1">
 			<item name="resourceMetalPipe" count="1,3" loot_prob_template="med"/>
 			<item name="resourceScrapPolymers" count="3,5" loot_prob_template="med"/>
-			<item name="workstationSkillMagazine" prob="0.2"/>
+			<item name="workstationSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupDewCollectorLoot01']">
-		<lootgroup name="groupDewCollectorLoot02">
-			<item name="drinkJarRiverWater" count="1" prob="0.2"/>
+		<lootgroup name="groupDewCollectorLoot02" count="1">
+			<item name="drinkJarRiverWater" count="1" prob="0.05"/>
 			<item name="workstationSkillMagazine" loot_prob_template="med"/>
 		</lootgroup>
 	</insertAfter>
 					
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupTechJunkieBooks']">
-		<lootgroup name="groupBotSchematics">
-			<item name="roboticsSkillMagazine" prob="0.2"/>
-			<item name="modRoboticDroneCargoModSchematic" prob="0.2"/>
-			<item name="modRoboticDroneMedicModSchematic" prob="0.2"/>
-			<item name="modRoboticDroneHeadlampModSchematic" prob="0.2"/>
-			<item name="modRoboticDroneArmorPlatingModSchematic" prob="0.2"/>
-			<item name="modRoboticDroneMoraleBoosterModSchematic" prob="0.2"/>
+		<lootgroup name="groupBotSchematics" count="1">
+			<item name="roboticsSkillMagazine" prob="0.05"/>
+			<item name="modRoboticDroneCargoModSchematic" prob="0.05"/>
+			<item name="modRoboticDroneMedicModSchematic" prob="0.05"/>
+			<item name="modRoboticDroneHeadlampModSchematic" prob="0.05"/>
+			<item name="modRoboticDroneArmorPlatingModSchematic" prob="0.05"/>
+			<item name="modRoboticDroneMoraleBoosterModSchematic" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupRobotics']">
-		<lootgroup name="groupMoPowerShelves">
+		<lootgroup name="groupMoPowerShelves" count="1">
 			<item name="resourceScrapPolymers" count="2,4" loot_prob_template="med"/>
 			<item name="resourceScrapIron" count="2,10" loot_prob_template="med"/>
 			<item name="resourcePaper" count="2,4" loot_prob_template="med"/>
 			<item name="resourceHeadlight" count="1" loot_prob_template="med"/>
 			<item name="resourceElectricParts" count="1,2" loot_prob_template="medLow"/>
 			<item name="resourceMechanicalParts" count="1,2" loot_prob_template="medLow"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" prob="0.2"/>
-			<item group="groupElectricalDevices" prob="0.2"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" prob="0.05"/>
+			<item group="groupElectricalDevices" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMoPowerShelves']">
-		<lootgroup name="groupMoPower01">
+		<lootgroup name="groupMoPower01" count="1">
 			<item name="resourceElectricParts" count="1,2" loot_prob_template="med"/>
 			<item name="resourceMechanicalParts" count="1,2" loot_prob_template="med"/>
 			<item name="resourceHeadlight" count="1,2" loot_prob_template="med"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" prob="0.2"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMoPower01']">
-		<lootgroup name="groupMoPower02">
-			<item name="roboticsSkillMagazine" prob="0.2"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupMoPower02" count="1">
+			<item name="roboticsSkillMagazine" prob="0.05"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupMoPower03']">
-		<lootgroup name="groupMoPower04">
+		<lootgroup name="groupMoPower04" count="1">
 			<item group="groupElectricalDevices" loot_prob_template="med"/>
-			<item name="electricianSkillMagazine" prob="0.2"/>
-			<item name="trapsSkillMagazine" prob="0.2"/>
-			<item group="groupBotSchematics" prob="0.2"/>
-			<item name="meleeToolWireTool" prob="0.2"/>
+			<item name="electricianSkillMagazine" prob="0.05"/>
+			<item name="trapsSkillMagazine" prob="0.05"/>
+			<item group="groupBotSchematics" prob="0.05"/>
+			<item name="meleeToolWireTool" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupFarmTruck01']">
-		<lootgroup name="groupFarmTruck02">
+		<lootgroup name="groupFarmTruck02" count="1">
 			<item group="groupToolbox" loot_prob_template="med"/>
-			<item name="vehiclesSkillMagazine" prob="0.2"/>
+			<item name="vehiclesSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCrackabookCrate']">
 		<!-- *** Backpack_Loot -->
-		<lootgroup name="groupBackpacks01">
+		<lootgroup name="groupBackpacks01" count="1">
 			<item group="groupArmorParts"/>
 			<item group="groupCupboard"/>
 			<item group="survivalMedical"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item name="drinkJarRiverWater" prob="0.2"/>
-			<item name="resourceGlue" count="1,2" prob="0.2"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item name="drinkJarRiverWater" prob="0.05"/>
+			<item name="resourceGlue" count="1,2" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupBackpacks']">
 		<!-- *** Camping_Tents -->
-		<lootgroup name="groupCampingTents01">
+		<lootgroup name="groupCampingTents01" count="1">
 			<item group="groupArmorParts"/>
 			<item group="groupCupboard"/>
 			<item group="survivalMedical"/>
-			<item group="skillMagazines" prob="0.2"/>
-			<item name="drinkJarRiverWater" prob="0.2"/>
+			<item group="skillMagazines" prob="0.05"/>
+			<item name="drinkJarRiverWater" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupCampingTents']">
 		<!-- *** Pass_N_Gas -->
-		<lootgroup name="groupPassNGas01">
+		<lootgroup name="groupPassNGas01" count="1">
 		 	<item name="resourceRepairKit" count="2,5" loot_prob_template="medLow"/>
 			<item group="groupToolsTiered" loot_prob_template="med"/>
-			<item name="harvestingToolsSkillMagazine" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" prob="0.2"/>
+			<item name="harvestingToolsSkillMagazine" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" prob="0.05"/>
 			<item name="vehiclesSkillMagazine" loot_prob_template="high"/>
 		</lootgroup>
 	</insertAfter>
 
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupPassNGas02']">
-		<lootgroup name="groupPassNGas03">
+		<lootgroup name="groupPassNGas03" count="1">
 			<item group="vehiclePartsTiered" loot_prob_template="medLow"/>
 			<item group="vehicleModSchematics" loot_prob_template="medLow"/>
-			<item group="groupRareToolsTiered" prob="0.2"/>
-			<item name="harvestingToolsSkillMagazine" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" prob="0.2"/>
+			<item group="groupRareToolsTiered" prob="0.05"/>
+			<item name="harvestingToolsSkillMagazine" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 				
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupHuntingRanged']">
-		<lootgroup name="groupSavageCountryCrate01">
-			<item name="armorSkillMagazine" prob="0.2"/>
-			<item name="bowsSkillMagazine" prob="0.2"/>
-			<item name="spearsSkillMagazine" prob="0.2"/>
-			<item name="bladesSkillMagazine" prob="0.2"/>
-			<item name="clubsSkillMagazine" prob="0.2"/>
-			<item group="groupArmorScaled" prob="0.2"/>
+		<lootgroup name="groupSavageCountryCrate01" count="1">
+			<item name="armorSkillMagazine" prob="0.05"/>
+			<item name="bowsSkillMagazine" prob="0.05"/>
+			<item name="spearsSkillMagazine" prob="0.05"/>
+			<item name="bladesSkillMagazine" prob="0.05"/>
+			<item name="clubsSkillMagazine" prob="0.05"/>
+			<item group="groupArmorScaled" prob="0.05"/>
 			<item group="groupArmorModsScaled" loot_prob_template="medLow"/>
-			<item group="groupArmorParts" prob="0.2"/>
+			<item group="groupArmorParts" prob="0.05"/>
 			<item name="gunBowT1WoodenBowParts" count="1,4" loot_prob_template="medLow"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShotgunMessiahCrate01']">
-		<lootgroup name="groupShotgunMessiahCrate02">
-			<item name="handgunsSkillMagazine" prob="0.2"/>
-			<item name="shotgunsSkillMagazine" prob="0.2"/>
-			<item name="riflesSkillMagazine" prob="0.2"/>
-			<item name="machineGunsSkillMagazine" prob="0.2"/>
-			<item name="explosivesSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupShotgunMessiahCrate02" count="1">
+			<item name="handgunsSkillMagazine" prob="0.05"/>
+			<item name="shotgunsSkillMagazine" prob="0.05"/>
+			<item name="riflesSkillMagazine" prob="0.05"/>
+			<item name="machineGunsSkillMagazine" prob="0.05"/>
+			<item name="explosivesSkillMagazine" prob="0.05"/>
 		
 			<item group="groupAmmoMedium" loot_prob_template="med"/>
 			<item group="groupAmmoResourcesMedium" loot_prob_template="med"/>
@@ -1408,45 +1408,45 @@
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupShamwayCrate01']">
-		<lootgroup name="groupShamwayCrate02">
-			<item name="foodSkillMagazine" prob="0.2"/>
-			<item name="seedSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupShamwayCrate02" count="1">
+			<item name="foodSkillMagazine" prob="0.05"/>
+			<item name="seedSkillMagazine" prob="0.05"/>
 			<item group="groupDrinksCommon" loot_prob_template="med"/>
-			<item group="groupDrinksUncommon" prob="0.2"/>
-			<item group="groupDrinksRare" prob="0.2"/>
+			<item group="groupDrinksUncommon" prob="0.05"/>
+			<item group="groupDrinksRare" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate01']">
-		<lootgroup name="groupPopNPillsCrate02">
-			<item name="medicalSkillMagazine" prob="0.2"/>
-			<item name="knucklesSkillMagazine" prob="0.2"/>
+		<lootgroup name="groupPopNPillsCrate02" count="1">
+			<item name="medicalSkillMagazine" prob="0.05"/>
+			<item name="knucklesSkillMagazine" prob="0.05"/>
 		
 			<item group="groupMedicalCommon" loot_prob_template="med"/>
 			<item group="groupMedicalUncommon" loot_prob_template="high"/>
-			<item group="groupMedicalRare" prob="0.2"/>
+			<item group="groupMedicalRare" prob="0.05"/>
 			<item group="groupPopNPillsBooks" loot_prob_template="medLow"/>
 		</lootgroup>
 	</insertAfter>
 		
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupPopNPillsCrate']">
 		<!-- *** Loot_Chest_Bonus_Items-->
-		<lootgroup name="groupLootChestBonusItems">
+		<lootgroup name="groupLootChestBonusItems" count="1">
 			<item name="resourceSewingKit" count="5,10" loot_prob_template="high"/>
 			<item name="resourceLockPick" count="5" loot_prob_template="medHigh"/>
 			<item name="resourceAcid" count="1,2" loot_prob_template="med"/>
 			<item name="thrownTimedCharge" count="5" loot_prob_template="medLow"/>
 			<item name="toolBeaker" count="1" loot_prob_template="medLow"/>
-			<item name="harvestingToolsSkillMagazine" count="1" prob="0.2"/>
-			<item name="repairToolsSkillMagazine" count="1" prob="0.2"/>
-			<item name="salvageToolsSkillMagazine" count="1" prob="0.2"/>
-			<item name="workstationSkillMagazine" count="1" prob="0.2"/>
+			<item name="harvestingToolsSkillMagazine" count="1" prob="0.05"/>
+			<item name="repairToolsSkillMagazine" count="1" prob="0.05"/>
+			<item name="salvageToolsSkillMagazine" count="1" prob="0.05"/>
+			<item name="workstationSkillMagazine" count="1" prob="0.05"/>
 		</lootgroup>
 	</insertAfter>
 			
 	<insertAfter xpath="/lootcontainers/lootgroup[@name='groupAirDrop03']">
-		<lootgroup name="groupAirDrop" count="all">
-			<item name="questRewardT1SkillMagazineBundle" count="1" prob="0.2"/>
+		<lootgroup name="groupAirDrop" count="1">
+			<item name="questRewardT1SkillMagazineBundle" count="1" prob="0.05"/>
 			<item group="groupAirDrop01" count="1"/>
 			<item group="groupAirDrop02" count="1"/>
 			<item group="groupAirDrop03" count="1"/>

@@ -1,0 +1,475 @@
+<configs>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='perkBooks']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='skillMagazines']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']"/>
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='books']"/>
+
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavy']">
+		<trader_item_group name="perkBooks">
+			<item name="bookRangersArrowRecovery" count="1" prob="0.1"/>
+			<item name="bookRangersCripplingShot" count="1" prob="0.1"/>
+			<item name="bookRangersKnockdown" count="1" prob="0.1"/>
+			<item name="bookRangersFlamingArrows" count="1" prob="0.1"/>
+			<item name="bookRangersAPAmmo" count="1" prob="0.1"/>
+			<item name="bookRangersExplodingBolts" count="1" prob="0.1"/>
+			<item name="bookRangersForestGuide" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningLuckyStrike" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningDiamondTools" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningCoffee" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningBlackStrap" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningPallets" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningAvalanche" count="1" prob="0.1"/>
+			<item name="bookArtOfMiningDamage" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsDamage" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsRagdoll" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsMaintenance" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsRecoil" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsDrumMag" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsUncontrolledBurst" count="1" prob="0.1"/>
+			<item name="bookAutoWeaponsMachineGuns" count="1" prob="0.1"/>
+			<item name="bookBatterUpFoulBalls" count="1" prob="0.1"/>
+			<item name="bookBatterUpBigHits" count="1" prob="0.1"/>
+			<item name="bookBatterUpStealingBases" count="1" prob="0.1"/>
+			<item name="bookBatterUpKnockdown" count="1" prob="0.1"/>
+			<item name="bookBatterUpSlowPitch" count="1" prob="0.1"/>
+			<item name="bookBatterUpMaintenance" count="1" prob="0.1"/>
+			<item name="bookBatterUpMetalChain" count="1" prob="0.1"/>
+			<item name="bookEnforcerAPAmmo" count="1" prob="0.1"/>
+			<item name="bookEnforcerApparel" count="1" prob="0.1"/>
+			<item name="bookEnforcerCriminalPursuit" count="1" prob="0.1"/>
+			<item name="bookEnforcerHPAmmo" count="1" prob="0.1"/>
+			<item name="bookEnforcerDamage" count="1" prob="0.1"/>
+			<item name="bookEnforcerIntimidation" count="1" prob="0.1"/>
+			<item name="bookEnforcerPunks" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacSpeed" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacAxes" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacEquipment" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacPrevention" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacHarvest" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacHeat" count="1" prob="0.1"/>
+			<item name="bookFiremansAlmanacMolotov" count="1" prob="0.1"/>
+			<item name="bookGreatHeistAdrenalineFall" count="1" prob="0.1"/>
+			<item name="bookGreatHeistGoldRush" count="1" prob="0.1"/>
+			<item name="bookGreatHeistClaimed" count="1" prob="0.1"/>
+			<item name="bookGreatHeistGems" count="1" prob="0.1"/>
+			<item name="bookGreatHeistMotionDetection" count="1" prob="0.1"/>
+			<item name="bookGreatHeistSafes" count="1" prob="0.1"/>
+			<item name="bookGreatHeistSprintSneak" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalBears" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalCoyotes" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalDeer" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalMountainLions" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalVultures" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalWolves" count="1" prob="0.1"/>
+			<item name="bookHuntingJournalSelfDefense" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterAmmunition" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterBooks" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterBrass" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterDukes" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterFood" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterLead" count="1" prob="0.1"/>
+			<item name="bookLuckyLooterMedical" count="1" prob="0.1"/>
+			<item name="bookNightStalkerArchery" count="1" prob="0.1"/>
+			<item name="bookNightStalkerBlades" count="1" prob="0.1"/>
+			<item name="bookNightStalkerSilentNight" count="1" prob="0.1"/>
+			<item name="bookNightStalkerSlumberParty" count="1" prob="0.1"/>
+			<item name="bookNightStalkerStealthDamage" count="1" prob="0.1"/>
+			<item name="bookNightStalkerThiefAdrenaline" count="1" prob="0.1"/>
+			<item name="bookNightStalkerTwilightThief" count="1" prob="0.1"/>
+			<item name="bookPistolPeteAPAmmo" count="1" prob="0.1"/>
+			<item name="bookPistolPeteDamage" count="1" prob="0.1"/>
+			<item name="bookPistolPeteHPAmmo" count="1" prob="0.1"/>
+			<item name="bookPistolPeteMaintenance" count="1" prob="0.1"/>
+			<item name="bookPistolPeteSteadyHand" count="1" prob="0.1"/>
+			<item name="bookPistolPeteSwissKnees" count="1" prob="0.1"/>
+			<item name="bookPistolPeteTakeAim" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahBreachingSlugs" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahDamage" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahLimbShot" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahMaintenance" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahMagazine" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahPartyStarter" count="1" prob="0.1"/>
+			<item name="bookShotgunMessiahSlugs" count="1" prob="0.1"/>
+			<item name="bookSniperAPAmmo" count="1" prob="0.1"/>
+			<item name="bookSniperControlledBreathing" count="1" prob="0.1"/>
+			<item name="bookSniperCripplingShot" count="1" prob="0.1"/>
+			<item name="bookSniperDamage" count="1" prob="0.1"/>
+			<item name="bookSniperHeadShot" count="1" prob="0.1"/>
+			<item name="bookSniperReload" count="1" prob="0.1"/>
+			<item name="bookSniperHPAmmo" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatAdrenalineRush" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatCigar" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatRoomClearing" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatJumping" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatLandMines" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatLanding" count="1" prob="0.1"/>
+			<item name="bookUrbanCombatSneaking" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresAcid" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresCloth" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresCoffins" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresDoors" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresHoney" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresSinks" count="1" prob="0.1"/>
+			<item name="bookWasteTreasuresWater" count="1" prob="0.1"/>
+			<item name="bookBarBrawling1BasicMoves" count="1" prob="0.1"/>
+			<item name="bookBarBrawling2DropABomb" count="1" prob="0.1"/>
+			<item name="bookBarBrawling3KillerInstinct" count="1" prob="0.1"/>
+			<item name="bookBarBrawling4FinishingMoves" count="1" prob="0.1"/>
+			<item name="bookBarBrawling5AdrenalineHealing" count="1" prob="0.1"/>
+			<item name="bookBarBrawling6RageMode" count="1" prob="0.1"/>
+			<item name="bookBarBrawling7BoozedUp" count="1" prob="0.1"/>
+			<item name="bookSpearHunter1Damage" count="1" prob="0.1"/>
+			<item name="bookSpearHunter2Maintenance" count="1" prob="0.1"/>
+			<item name="bookSpearHunter3Bleed" count="1" prob="0.1"/>
+			<item name="bookSpearHunter4KillMove" count="1" prob="0.1"/>
+			<item name="bookSpearHunter5RapidStrike" count="1" prob="0.1"/>
+			<item name="bookSpearHunter6PenetratingShaft" count="1" prob="0.1"/>
+			<item name="bookSpearHunter7QuickStrike" count="1" prob="0.1"/>
+			<item name="bookTechJunkie1Damage" count="1" prob="0.1"/>
+			<item name="bookTechJunkie2Maintenance" count="1" prob="0.1"/>
+			<item name="bookTechJunkie3APAmmo" count="1" prob="0.1"/>
+			<item name="bookTechJunkie4Shells" count="1" prob="0.1"/>
+			<item name="bookTechJunkie5Repulsor" count="1" prob="0.1"/>
+			<item name="bookTechJunkie6BatonCharge" count="1" prob="0.1"/>
+			<item name="bookTechJunkie7Hydraulics" count="1" prob="0.1"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='perkBooks']">
+		<trader_item_group name="skillMagazines" count="1">
+			<item name="harvestingToolsSkillMagazine" count="1" prob="0.1"/>
+			<item name="repairToolsSkillMagazine" count="1" prob="0.1"/>
+			<item name="salvageToolsSkillMagazine" count="1" prob="0.1"/>
+			<item name="sledgehammersSkillMagazine" count="1" prob="0.1"/>
+			<item name="workstationSkillMagazine" count="1" prob="0.1"/>
+			<item name="bowsSkillMagazine" count="1" prob="0.1"/>
+			<item name="spearsSkillMagazine" count="1" prob="0.1"/>
+			<item name="bladesSkillMagazine" count="1" prob="0.1"/>
+			<item name="clubsSkillMagazine" count="1" prob="0.1"/>
+			<item name="handgunsSkillMagazine" count="1" prob="0.1"/>
+			<item name="shotgunsSkillMagazine" count="1" prob="0.1"/>
+			<item name="riflesSkillMagazine" count="1" prob="0.1"/>
+			<item name="machineGunsSkillMagazine" count="1" prob="0.1"/>
+			<item name="explosivesSkillMagazine" count="1" prob="0.1"/>
+			<item name="armorSkillMagazine" count="1" prob="0.1"/>
+			<item name="medicalSkillMagazine" count="1" prob="0.1"/>
+			<item name="knucklesSkillMagazine" count="1" prob="0.1"/>
+			<item name="foodSkillMagazine" count="1" prob="0.1"/>
+			<item name="seedSkillMagazine" count="1" prob="0.1"/>
+			<item name="roboticsSkillMagazine" count="1" prob="0.1"/>
+			<item name="vehiclesSkillMagazine" count="1" prob="0.1"/>
+			<item name="electricianSkillMagazine" count="1" prob="0.1"/>
+			<item name="trapsSkillMagazine" count="1" prob="0.1"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsVehiclesMods']">
+		<trader_item_group name="commonBooks">
+			<item group="perkBooks" prob="0.1"/>
+			<item group="schematicsModsCommon" prob="0.1"/>
+			<item group="schematicsVehiclesMods" prob="0.1"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='commonBooks']">
+		<trader_item_group name="rareBooks" count="1">
+			<item name="modRoboticDroneCargoModSchematic" count="1" prob="0.1"/>
+			<item name="modRoboticDroneMedicModSchematic" count="1" prob="0.1"/>
+			<item name="modRoboticDroneHeadlampModSchematic" count="1" prob="0.1"/>
+			<item name="modRoboticDroneArmorPlatingModSchematic" count="1" prob="0.1"/>
+			<item name="modRoboticDroneMoraleBoosterModSchematic" count="1" prob="0.1"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<insertAfter xpath="/traders/trader_item_groups/trader_item_group[@name='rareBooks']">
+		<trader_item_group name="books">
+			<item group="perkBooks" prob="0.1"/>
+			<item group="rareBooks" prob="0.05"/>
+			<item group="commonBooks" prob="0.2"/>
+		</trader_item_group>
+	</insertAfter>
+
+	<!-- =============================================== -->
+	<!-- DELETE ALL BELLOW IF YOU WANT TRADER SELL BOOKS -->
+	<!-- =============================================== -->
+
+	<!-- TRADER JOEL ID:1 SPECIALTY: CLOTHES AND ARMOR -->
+
+	<remove xpath="/traders/trader_info[@id='1']"/>
+
+	<insertAfter xpath="/traders/trader_item_groups">
+		<trader_info id="1" reset_interval="7" open_time="4:05" close_time="21:50">
+		
+			<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item group="groupArmorMods" unique_only="true" count="4"/>
+				<item group="groupArmorLight" unique_only="true" count="8"/>
+				<item group="groupArmorMedium" unique_only="true" count="8"/>
+				<item group="groupArmorHeavy" unique_only="true" count="8"/>
+				<item name="armorParts" unique_only="true" count="3"/>
+				<item name="resourceSewingKit" unique_only="true" count="3"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="books" unique_only="true" count="0"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item name="toolDewGatherer" unique_only="true" count="1,3"/>
+				<item name="toolDewTarp" unique_only="true" count="1,3"/>
+				<item name="toolDewFilter" unique_only="true" count="1,3"/>
+				<item name="toolCookingPot" unique_only="true" count="1,3"/>
+				<item name="toolCookingGrill" unique_only="true" count="1,3"/>
+				<item group="groupDyeMods" unique_only="true" count="5"/>
+			</trader_items>
+			
+			<!-- *** GENERAL -->
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="4,8"/>
+				<item group="groupModsAll" unique_only="true" count="7,10"/>
+				<item group="generalResources" unique_only="true" count="5,8"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="rareTools" unique_only="true" count="2,3"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2,4"/>
+				<item group="traderElectrical" unique_only="true" count="5,10"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="constructionSupplies" unique_only="true" count="2,4"/>
+				<item group="decorativeBlocks" unique_only="true" count="6,10"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+
+	<!-- *** TRADER BOB ID:6 SPECIALTY: TOOLS AND VEHICLES -->
+
+	<remove xpath="/traders/trader_info[@id='6']"/>
+
+	<insertAfter xpath="/traders/trader_info[@id='1']">
+		<trader_info id="6" reset_interval="7" open_time="4:05" close_time="21:50">
+		<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item group="groupVehicles" unique_only="true" count="1"/>
+				<item group="groupMeleeMods" unique_only="true" count="1"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="rareTools" unique_only="true" count="2,3"/>
+				<item group="traderElectrical" unique_only="true" count="8,15"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="books" unique_only="true" count="0"/>
+				<item name="toolDewGatherer" count="1,3"/>
+				<item name="toolDewTarp" unique_only="true" count="1,3"/>
+				<item name="toolDewFilter" unique_only="true" count="1,3"/>
+				<item name="toolCookingPot" unique_only="true" count="1,3"/>
+				<item name="toolCookingGrill" unique_only="true" count="1,3"/>
+			</trader_items>
+			
+			<!-- *** GENERAL -->
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="4,10"/>
+				<item group="groupModsAll" unique_only="true" count="0"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="generalResources" unique_only="true" count="5,8"/>
+				<item group="traderElectrical" unique_only="true" count="2,5"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2,4"/>
+				<item name="armorParts" unique_only="true" count="1,2"/>
+				<item name="resourceSewingKit" unique_only="true" count="1,2"/>
+				<item group="groupArmorLight" unique_only="true" count="6"/>
+				<item group="groupArmorMedium" unique_only="true" count="6"/>
+				<item group="groupArmorHeavy" unique_only="true" count="6"/>
+				<item group="constructionSupplies" unique_only="true" count="2,4"/>
+				<item group="decorativeBlocks" unique_only="true" count="6,10"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+
+	<!-- *** TRADER JEN ID:2 SPECIALTY: MEDICAL AND BOOKS -->
+
+	<remove xpath="/traders/trader_info[@id='2']"/>
+
+	<insertAfter xpath="/traders/trader_info[@id='6']">
+		<trader_info id="2" reset_interval="7" open_time="4:05" close_time="21:50">
+			<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item name="resourceCropAloeLeaf" count="2,5"/>
+				<item name="medicalAloeCream" count="2"/>
+				<item group="medicine"  unique_only="true" count="4"/>
+				<item group="rareMedicine" count="2"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="commonBooks" unique_only="true" count="0"/>
+				<item group="rareBooks" count="0"/>
+				<item group="perkBooks" count="0"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item name="toolDewGatherer" count="1,3"/>
+				<item name="toolDewTarp" count="1,3"/>
+				<item name="toolDewFilter" count="1,3"/>
+				<item name="toolCookingPot" count="1,3"/>
+				<item name="toolCookingGrill" count="1,3"/>
+			</trader_items>
+			
+			<!-- *** GENERAL -->
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="4,8"/>
+				<item group="generalResources" unique_only="true" count="5,8"/>
+				<item group="groupModsAll" unique_only="true" count="7,10"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="rareTools" unique_only="true" count="2"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2,4"/>
+				<item name="armorParts" unique_only="true" count="1,2"/>
+				<item name="resourceSewingKit" unique_only="true" count="1,2"/>
+				<item group="traderElectrical" unique_only="true" count="5,10"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="groupArmorLight" unique_only="true" count="6"/>
+				<item group="groupArmorMedium" unique_only="true" count="6"/>
+				<item group="groupArmorHeavy" unique_only="true" count="6"/>
+				<item group="constructionSupplies" unique_only="true" count="2,4"/>
+				<item group="decorativeBlocks" unique_only="true" count="6,10"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+
+	<!-- *** TRADER HUGH ID:7 SPECIALTY: GUNS & AMMO -->
+
+	<remove xpath="/traders/trader_info[@id='7']"/>
+
+	<insertAfter xpath="/traders/trader_info[@id='2']">
+		<trader_info id="7" reset_interval="7" open_time="4:05" close_time="21:50">
+			<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item group="groupAllAmmo" unique_only="true" count="2"/>
+				<item group="ammoSupplies" unique_only="true" count="2"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2"/>
+				<item group="groupRangedMods" count="1,2"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="books" unique_only="true" count="0"/>
+				<item name="toolDewGatherer" count="1,3"/>
+				<item name="toolDewTarp" count="1,3"/>
+				<item name="toolDewFilter" count="1,3"/>
+				<item name="toolCookingPot" count="1,3"/>
+				<item name="toolCookingGrill" count="1,3"/>
+			</trader_items>
+			
+			<!-- *** GENERAL -->
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="4,8"/>
+				<item group="generalResources" unique_only="true" count="5,8"/>
+				<item group="groupModsAll" unique_only="true" count="7,10"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2,4"/>
+				<item name="armorParts" unique_only="true" count="1,2"/>
+				<item name="resourceSewingKit" unique_only="true" count="1,2"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="rareTools" unique_only="true" count="2,3"/>
+				<item group="traderElectrical" unique_only="true" count="5,10"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="groupArmorLight" unique_only="true" count="6"/>
+				<item group="groupArmorMedium" unique_only="true" count="6"/>
+				<item group="groupArmorHeavy" unique_only="true" count="6"/>
+				<item group="constructionSupplies" count="2,4"/>
+				<item group="decorativeBlocks" unique_only="true" count="6,10"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+
+	<!-- *** TRADER REKT ID:8 SPECIALTY: FOOD & FARMING -->
+
+	<remove xpath="/traders/trader_info[@id='8']"/>
+
+	<insertAfter xpath="/traders/trader_info[@id='7']">
+		<trader_info id="8" reset_interval="7" open_time="4:05" close_time="21:50">
+			<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item group="seeds" unique_only="true" count="2,5" />
+				<item group="cannedfood" unique_only="true" count="3,6"/>
+				<item group="foodSupplies" unique_only="true" count="2,5"/>
+				<item group="groupFoodAll" unique_only="true" count="1,3"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="books" unique_only="true" count="0"/>
+				<item name="toolDewGatherer" unique_only="true" count="1,3"/>
+				<item name="toolDewTarp" unique_only="true" count="1,3"/>
+				<item name="toolDewFilter" unique_only="true" count="1,3"/>
+				<item name="toolCookingPot" unique_only="true" count="1,3"/>
+				<item name="toolCookingGrill" unique_only="true" count="1,3"/>
+			</trader_items>
+			
+			<!-- *** GENERAL -->
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="4,8"/>
+				<item group="generalResources" unique_only="true" count="5,8"/>
+				<item group="groupModsAll" unique_only="true" count="7,10"/>
+				<item group="tools" unique_only="true" count="10"/>
+				<item group="rareTools" unique_only="true" count="2,3"/>
+				<item group="groupMeleeAll" unique_only="true" count="5,7"/>
+				<item group="groupRangedAll" unique_only="true" count="5,7"/>
+				<item group="weaponsGunParts" unique_only="true" count="2,4"/>
+				<item name="armorParts" unique_only="true" count="1,2"/>
+				<item name="resourceSewingKit" unique_only="true" count="1,2"/>
+				<item group="traderElectrical" unique_only="true" count="5,10"/>
+				<item group="traderSolarCells" unique_only="true" count="2,4"/>
+				<item group="groupArmorLight" unique_only="true" count="6"/>
+				<item group="groupArmorMedium" unique_only="true" count="6"/>
+				<item group="groupArmorHeavy" unique_only="true" count="6"/>
+				<item group="constructionSupplies" unique_only="true" count="2,4"/>
+				<item group="decorativeBlocks" unique_only="true" count="6,10"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+
+		<!-- *** PLAY_TEST_TRADER ID:9 -->
+
+	<remove xpath="/traders/trader_info[@id='9']"/>
+
+	<insertAfter xpath="/traders/trader_info[@id='8']">
+		<trader_info id="9" reset_interval="7" open_time="4:05" close_time="21:50">
+		
+		<!-- Copy of trader Joel, but can be used for testing other item lists in a play test session -->
+		
+			<!-- *** SPECIALTY -->
+			<trader_items count="8">
+				<item group="groupArmorLight" unique_only="true" count="0"/>
+				<item group="groupArmorMedium" unique_only="true" count="0"/>
+				<item group="groupArmorHeavy" unique_only="true" count="0"/>
+				<item group="groupModsAll" unique_only="true" count="0"/>
+				<item group="skillMagazines" unique_only="true" count="0"/>
+				<item group="books" unique_only="true" count="0"/>
+				<item name="toolDewGatherer" unique_only="true" count="0"/>
+				<item name="toolDewTarp" unique_only="true" count="0"/>
+				<item name="toolDewFilter" unique_only="true" count="0"/>
+				<item name="toolCookingPot" unique_only="true" count="0"/>
+				<item name="toolCookingGrill" unique_only="true" count="0"/>
+			</trader_items>
+	
+			<trader_items count="8">
+				<item group="traderAlways"/>
+				<item group="traderGeneral" unique_only="true" count="0"/>
+				<item group="generalResources" unique_only="true" count="0"/>
+				<item group="groupModsAll" unique_only="true" count="0"/>
+				<item group="tools" unique_only="true" count="0"/>
+				<item group="groupMeleeAll" unique_only="true" count="0"/>
+				<item group="groupRangedAll" unique_only="true" count="0"/>
+				<item group="weaponsGunParts" unique_only="true" count="0"/>
+				<item name="armorParts" unique_only="true" count="0"/>
+				<item name="resourceSewingKit" unique_only="true" count="0"/>
+				<item group="traderElectrical" unique_only="true" count="0"/>
+				<item group="traderSolarCells" unique_only="true" count="0"/>
+				<item group="groupArmorLight" unique_only="true" count="0"/>
+				<item group="groupArmorMedium" unique_only="true" count="0"/>
+				<item group="groupArmorHeavy" unique_only="true" count="0"/>
+				<item group="constructionSupplies" unique_only="true" count="0"/>
+				<item group="decorativeBlocks" unique_only="true" count="0"/>
+			</trader_items>
+		</trader_info>
+	</insertAfter>
+</configs>
